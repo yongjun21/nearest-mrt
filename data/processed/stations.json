@@ -1,2055 +1,2193 @@
 {
-	"PASIR RIS MRT STATION": {
-		"STATION_CODE": [
-			"EW1"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"TAMPINES MRT STATION": {
-		"STATION_CODE": [
-			"EW2",
-			"DT32 (Future)"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 2
-	},
-	"SIMEI MRT STATION": {
-		"STATION_CODE": [
-			"EW3"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"TANAH MERAH MRT STATION": {
-		"STATION_CODE": [
-			"EW4"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"BEDOK MRT STATION": {
-		"STATION_CODE": [
-			"EW5"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"KEMBANGAN MRT STATION": {
-		"STATION_CODE": [
-			"EW6"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"EUNOS MRT STATION": {
-		"STATION_CODE": [
-			"EW7"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"PAYA LEBAR MRT STATION": {
-		"STATION_CODE": [
-			"EW8",
-			"CC9"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"ALJUNIED MRT STATION": {
-		"STATION_CODE": [
-			"EW9"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"KALLANG MRT STATION": {
-		"STATION_CODE": [
-			"EW10"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"LAVENDER MRT STATION": {
-		"STATION_CODE": [
-			"EW11"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"BUGIS MRT STATION": {
-		"STATION_CODE": [
-			"EW12",
-			"DT14"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"CITY HALL MRT STATION": {
-		"STATION_CODE": [
-			"EW13",
-			"NS25"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"RAFFLES PLACE MRT STATION": {
-		"STATION_CODE": [
-			"EW14",
-			"NS26"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"TANJONG PAGAR MRT STATION": {
-		"STATION_CODE": [
-			"EW15"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"OUTRAM PARK MRT STATION": {
-		"STATION_CODE": [
-			"EW16",
-			"NE3",
-			"TE17 (Future)"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 1,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"TIONG BAHRU MRT STATION": {
-		"STATION_CODE": [
-			"EW17"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"REDHILL MRT STATION": {
-		"STATION_CODE": [
-			"EW18"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"QUEENSTOWN MRT STATION": {
-		"STATION_CODE": [
-			"EW19"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"COMMONWEALTH MRT STATION": {
-		"STATION_CODE": [
-			"EW20"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"BUONA VISTA MRT STATION": {
-		"STATION_CODE": [
-			"EW21",
-			"CC22"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"DOVER MRT STATION": {
-		"STATION_CODE": [
-			"EW22"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"CLEMENTI MRT STATION": {
-		"STATION_CODE": [
-			"EW23"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"JURONG EAST MRT STATION": {
-		"STATION_CODE": [
-			"EW24",
-			"NS1"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"CHINESE GARDEN MRT STATION": {
-		"STATION_CODE": [
-			"EW25"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"LAKESIDE MRT STATION": {
-		"STATION_CODE": [
-			"EW26"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"BOON LAY MRT STATION": {
-		"STATION_CODE": [
-			"EW27"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"PIONEER MRT STATION": {
-		"STATION_CODE": [
-			"EW28"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"JOO KOON MRT STATION": {
-		"STATION_CODE": [
-			"EW29"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"GUL CIRCLE MRT STATION": {
-		"STATION_CODE": [
-			"EW30 (Future)"
-		],
-		"LINE": {
-			"EWL": 2,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"TUAS CRESCENT MRT STATION": {
-		"STATION_CODE": [
-			"EW31 (Future)"
-		],
-		"LINE": {
-			"EWL": 2,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"TUAS WEST ROAD MRT STATION": {
-		"STATION_CODE": [
-			"EW32 (Future)"
-		],
-		"LINE": {
-			"EWL": 2,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"TUAS LINK MRT STATION": {
-		"STATION_CODE": [
-			"EW33 (Future)"
-		],
-		"LINE": {
-			"EWL": 2,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"EXPO MRT STATION": {
-		"STATION_CODE": [
-			"CG1",
-			"DT35 (Future)"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 2
-	},
-	"CHANGI AIRPORT MRT STATION": {
-		"STATION_CODE": [
-			"CG2"
-		],
-		"LINE": {
-			"EWL": 1,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"BUKIT BATOK MRT STATION": {
-		"STATION_CODE": [
-			"NS2"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"BUKIT GOMBAK MRT STATION": {
-		"STATION_CODE": [
-			"NS3"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"CHOA CHU KANG MRT STATION": {
-		"STATION_CODE": [
-			"NS4"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"YEW TEE MRT STATION": {
-		"STATION_CODE": [
-			"NS5"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"KRANJI MRT STATION": {
-		"STATION_CODE": [
-			"NS7"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"MARSILING MRT STATION": {
-		"STATION_CODE": [
-			"NS8"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"WOODLANDS MRT STATION": {
-		"STATION_CODE": [
-			"NS9",
-			"TE2 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 2
-	},
-	"ADMIRALTY MRT STATION": {
-		"STATION_CODE": [
-			"NS10"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"SEMBAWANG MRT STATION": {
-		"STATION_CODE": [
-			"NS11"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"YISHUN MRT STATION": {
-		"STATION_CODE": [
-			"NS13"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"KHATIB MRT STATION": {
-		"STATION_CODE": [
-			"NS14"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"YIO CHU KANG MRT STATION": {
-		"STATION_CODE": [
-			"NS15"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"ANG MO KIO MRT STATION": {
-		"STATION_CODE": [
-			"NS16"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"BISHAN MRT STATION": {
-		"STATION_CODE": [
-			"NS17",
-			"CC15"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"BRADDELL MRT STATION": {
-		"STATION_CODE": [
-			"NS18"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"TOA PAYOH MRT STATION": {
-		"STATION_CODE": [
-			"NS19"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"NOVENA MRT STATION": {
-		"STATION_CODE": [
-			"NS20"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"NEWTON MRT STATION": {
-		"STATION_CODE": [
-			"NS21",
-			"DT11"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"ORCHARD MRT STATION": {
-		"STATION_CODE": [
-			"NS22",
-			"TE14 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 2
-	},
-	"SOMERSET MRT STATION": {
-		"STATION_CODE": [
-			"NS23"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"DHOBY GHAUT MRT STATION": {
-		"STATION_CODE": [
-			"NS24",
-			"NE6",
-			"CC1"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 1,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"MARINA BAY MRT STATION": {
-		"STATION_CODE": [
-			"NS27",
-			"CE2",
-			"TE20 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"MARINA SOUTH PIER MRT STATION": {
-		"STATION_CODE": [
-			"NS28"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 1,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"HARBOURFRONT MRT STATION": {
-		"STATION_CODE": [
-			"NE1",
-			"CC29"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 1,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"CHINATOWN MRT STATION": {
-		"STATION_CODE": [
-			"NE4",
-			"DT19"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 1,
-			"CCL": 0,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"CLARKE QUAY MRT STATION": {
-		"STATION_CODE": [
-			"NE5"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 1,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"LITTLE INDIA MRT STATION": {
-		"STATION_CODE": [
-			"NE7",
-			"DT12"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 1,
-			"CCL": 0,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"FARRER PARK MRT STATION": {
-		"STATION_CODE": [
-			"NE8"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 1,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"BOON KENG MRT STATION": {
-		"STATION_CODE": [
-			"NE9"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 1,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"POTONG PASIR MRT STATION": {
-		"STATION_CODE": [
-			"NE10"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 1,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"WOODLEIGH MRT STATION": {
-		"STATION_CODE": [
-			"NE11"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 1,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"SERANGOON MRT STATION": {
-		"STATION_CODE": [
-			"NE12",
-			"CC13"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 1,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"KOVAN MRT STATION": {
-		"STATION_CODE": [
-			"NE13"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 1,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"HOUGANG MRT STATION": {
-		"STATION_CODE": [
-			"NE14"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 1,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"BUANGKOK MRT STATION": {
-		"STATION_CODE": [
-			"NE15"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 1,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"SENGKANG MRT STATION": {
-		"STATION_CODE": [
-			"NE16"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 1,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"PUNGGOL MRT STATION": {
-		"STATION_CODE": [
-			"NE17"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 1,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"BRAS BASAH MRT STATION": {
-		"STATION_CODE": [
-			"CC2"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"ESPLANADE MRT STATION": {
-		"STATION_CODE": [
-			"CC3"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"PROMENADE MRT STATION": {
-		"STATION_CODE": [
-			"CC4",
-			"DT15"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"NICOLL HIGHWAY MRT STATION": {
-		"STATION_CODE": [
-			"CC5"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"STADIUM MRT STATION": {
-		"STATION_CODE": [
-			"CC6"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"MOUNTBATTEN MRT STATION": {
-		"STATION_CODE": [
-			"CC7"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"DAKOTA MRT STATION": {
-		"STATION_CODE": [
-			"CC8"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"MACPHERSON MRT STATION": {
-		"STATION_CODE": [
-			"CC10",
-			"DT26 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 2
-	},
-	"TAI SENG MRT STATION": {
-		"STATION_CODE": [
-			"CC11"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"BARTLEY MRT STATION": {
-		"STATION_CODE": [
-			"CC12"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"LORONG CHUAN MRT STATION": {
-		"STATION_CODE": [
-			"CC14"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"MARYMOUNT MRT STATION": {
-		"STATION_CODE": [
-			"CC16"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"CALDECOTT MRT STATION": {
-		"STATION_CODE": [
-			"CC17",
-			"TE9 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 2
-	},
-	"BUKIT BROWN MRT STATION": {
-		"STATION_CODE": [
-			"CC18 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 2,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"BOTANIC GARDENS MRT STATION": {
-		"STATION_CODE": [
-			"CC19",
-			"DT9"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"FARRER ROAD MRT STATION": {
-		"STATION_CODE": [
-			"CC20"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"HOLLAND VILLAGE MRT STATION": {
-		"STATION_CODE": [
-			"CC21"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"ONE-NORTH MRT STATION": {
-		"STATION_CODE": [
-			"CC23"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"KENT RIDGE MRT STATION": {
-		"STATION_CODE": [
-			"CC24"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"HAW PAR VILLA MRT STATION": {
-		"STATION_CODE": [
-			"CC25"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"PASIR PANJANG MRT STATION": {
-		"STATION_CODE": [
-			"CC26"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"LABRADOR PARK MRT STATION": {
-		"STATION_CODE": [
-			"CC27"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"TELOK BLANGAH MRT STATION": {
-		"STATION_CODE": [
-			"CC28"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 0,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"BAYFRONT MRT STATION": {
-		"STATION_CODE": [
-			"CE1",
-			"DT16"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 1,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 1
-	},
-	"BUKIT PANJANG MRT STATION": {
-		"STATION_CODE": [
-			"DT1"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"CASHEW MRT STATION": {
-		"STATION_CODE": [
-			"DT2"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"HILLVIEW MRT STATION": {
-		"STATION_CODE": [
-			"DT3"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"BEAUTY WORLD MRT STATION": {
-		"STATION_CODE": [
-			"DT5"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"KING ALBERT PARK MRT STATION": {
-		"STATION_CODE": [
-			"DT6"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"SIXTH AVENUE MRT STATION": {
-		"STATION_CODE": [
-			"DT7"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"TAN KAH KEE MRT STATION": {
-		"STATION_CODE": [
-			"DT8"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"STEVENS MRT STATION": {
-		"STATION_CODE": [
-			"DT10",
-			"TE11 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 1,
-			"TEL": 2
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 2
-	},
-	"ROCHOR MRT STATION": {
-		"STATION_CODE": [
-			"DT13"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"DOWNTOWN MRT STATION": {
-		"STATION_CODE": [
-			"DT17"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"TELOK AYER MRT STATION": {
-		"STATION_CODE": [
-			"DT18"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 1,
-			"TEL": 0
-		},
-		"OPERATIONAL": 1,
-		"INTERCHANGE": 0
-	},
-	"FORT CANNING MRT STATION": {
-		"STATION_CODE": [
-			"DT20 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"BENCOOLEN MRT STATION": {
-		"STATION_CODE": [
-			"DT21 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"JALAN BESAR MRT STATION": {
-		"STATION_CODE": [
-			"DT22 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"BENDEMEER MRT STATION": {
-		"STATION_CODE": [
-			"DT23 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"GEYLANG BAHRU MRT STATION": {
-		"STATION_CODE": [
-			"DT24 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"MATTAR MRT STATION": {
-		"STATION_CODE": [
-			"DT25 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"UBI MRT STATION": {
-		"STATION_CODE": [
-			"DT27 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"KAKI BUKIT MRT STATION": {
-		"STATION_CODE": [
-			"DT28 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"BEDOK NORTH MRT STATION": {
-		"STATION_CODE": [
-			"DT29 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"BEDOK RESERVOIR MRT STATION": {
-		"STATION_CODE": [
-			"DT30 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"TAMPINES WEST MRT STATION": {
-		"STATION_CODE": [
-			"DT31 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"TAMPINES EAST MRT STATION": {
-		"STATION_CODE": [
-			"DT33 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"UPPER CHANGI MRT STATION": {
-		"STATION_CODE": [
-			"DT34 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 2,
-			"TEL": 0
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"WOODLANDS NORTH MRT STATION": {
-		"STATION_CODE": [
-			"TE1 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"WOODLANDS SOUTH MRT STATION": {
-		"STATION_CODE": [
-			"TE3 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"SPRINGLEAF MRT STATION": {
-		"STATION_CODE": [
-			"TE4 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"LENTOR MRT STATION": {
-		"STATION_CODE": [
-			"TE5 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"MAYFLOWER MRT STATION": {
-		"STATION_CODE": [
-			"TE6 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"BRIGHT HILL MRT STATION": {
-		"STATION_CODE": [
-			"TE7 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"UPPER THOMSON MRT STATION": {
-		"STATION_CODE": [
-			"TE8 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"MOUNT PLEASANT MRT STATION": {
-		"STATION_CODE": [
-			"TE10 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"NAPIER MRT STATION": {
-		"STATION_CODE": [
-			"TE12 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"ORCHARD BOULEVARD MRT STATION": {
-		"STATION_CODE": [
-			"TE13 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"GREAT WORLD MRT STATION": {
-		"STATION_CODE": [
-			"TE15 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"MAXWELL MRT STATION": {
-		"STATION_CODE": [
-			"TE18 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"SHENTON WAY MRT STATION": {
-		"STATION_CODE": [
-			"TE19 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"MARINA SOUTH MRT STATION": {
-		"STATION_CODE": [
-			"TE21 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
-	},
-	"GARDENS BY THE BAY MRT STATION": {
-		"STATION_CODE": [
-			"TE22 (Future)"
-		],
-		"LINE": {
-			"EWL": 0,
-			"NSL": 0,
-			"NEL": 0,
-			"CCL": 0,
-			"DTL": 0,
-			"TEL": 2
-		},
-		"OPERATIONAL": 2,
-		"INTERCHANGE": 0
+	"lastUpdated": 1480435200000,
+	"data": {
+		"PASIR RIS MRT STATION": {
+			"STATION_NAME": "PASIR RIS MRT STATION",
+			"STATION_CODE": [
+				"EW1"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"TAMPINES MRT STATION": {
+			"STATION_NAME": "TAMPINES MRT STATION",
+			"STATION_CODE": [
+				"EW2",
+				"DT32 (Future)"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 2
+		},
+		"SIMEI MRT STATION": {
+			"STATION_NAME": "SIMEI MRT STATION",
+			"STATION_CODE": [
+				"EW3"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"TANAH MERAH MRT STATION": {
+			"STATION_NAME": "TANAH MERAH MRT STATION",
+			"STATION_CODE": [
+				"EW4"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"BEDOK MRT STATION": {
+			"STATION_NAME": "BEDOK MRT STATION",
+			"STATION_CODE": [
+				"EW5"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"KEMBANGAN MRT STATION": {
+			"STATION_NAME": "KEMBANGAN MRT STATION",
+			"STATION_CODE": [
+				"EW6"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"EUNOS MRT STATION": {
+			"STATION_NAME": "EUNOS MRT STATION",
+			"STATION_CODE": [
+				"EW7"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"PAYA LEBAR MRT STATION": {
+			"STATION_NAME": "PAYA LEBAR MRT STATION",
+			"STATION_CODE": [
+				"EW8",
+				"CC9"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"ALJUNIED MRT STATION": {
+			"STATION_NAME": "ALJUNIED MRT STATION",
+			"STATION_CODE": [
+				"EW9"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"KALLANG MRT STATION": {
+			"STATION_NAME": "KALLANG MRT STATION",
+			"STATION_CODE": [
+				"EW10"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"LAVENDER MRT STATION": {
+			"STATION_NAME": "LAVENDER MRT STATION",
+			"STATION_CODE": [
+				"EW11"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"BUGIS MRT STATION": {
+			"STATION_NAME": "BUGIS MRT STATION",
+			"STATION_CODE": [
+				"EW12",
+				"DT14"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"CITY HALL MRT STATION": {
+			"STATION_NAME": "CITY HALL MRT STATION",
+			"STATION_CODE": [
+				"EW13",
+				"NS25"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"RAFFLES PLACE MRT STATION": {
+			"STATION_NAME": "RAFFLES PLACE MRT STATION",
+			"STATION_CODE": [
+				"EW14",
+				"NS26"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"TANJONG PAGAR MRT STATION": {
+			"STATION_NAME": "TANJONG PAGAR MRT STATION",
+			"STATION_CODE": [
+				"EW15"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"OUTRAM PARK MRT STATION": {
+			"STATION_NAME": "OUTRAM PARK MRT STATION",
+			"STATION_CODE": [
+				"EW16",
+				"NE3",
+				"TE17 (Future)"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 1,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"TIONG BAHRU MRT STATION": {
+			"STATION_NAME": "TIONG BAHRU MRT STATION",
+			"STATION_CODE": [
+				"EW17"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"REDHILL MRT STATION": {
+			"STATION_NAME": "REDHILL MRT STATION",
+			"STATION_CODE": [
+				"EW18"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"QUEENSTOWN MRT STATION": {
+			"STATION_NAME": "QUEENSTOWN MRT STATION",
+			"STATION_CODE": [
+				"EW19"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"COMMONWEALTH MRT STATION": {
+			"STATION_NAME": "COMMONWEALTH MRT STATION",
+			"STATION_CODE": [
+				"EW20"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"BUONA VISTA MRT STATION": {
+			"STATION_NAME": "BUONA VISTA MRT STATION",
+			"STATION_CODE": [
+				"EW21",
+				"CC22"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"DOVER MRT STATION": {
+			"STATION_NAME": "DOVER MRT STATION",
+			"STATION_CODE": [
+				"EW22"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"CLEMENTI MRT STATION": {
+			"STATION_NAME": "CLEMENTI MRT STATION",
+			"STATION_CODE": [
+				"EW23"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"JURONG EAST MRT STATION": {
+			"STATION_NAME": "JURONG EAST MRT STATION",
+			"STATION_CODE": [
+				"EW24",
+				"NS1"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"CHINESE GARDEN MRT STATION": {
+			"STATION_NAME": "CHINESE GARDEN MRT STATION",
+			"STATION_CODE": [
+				"EW25"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"LAKESIDE MRT STATION": {
+			"STATION_NAME": "LAKESIDE MRT STATION",
+			"STATION_CODE": [
+				"EW26"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"BOON LAY MRT STATION": {
+			"STATION_NAME": "BOON LAY MRT STATION",
+			"STATION_CODE": [
+				"EW27"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"PIONEER MRT STATION": {
+			"STATION_NAME": "PIONEER MRT STATION",
+			"STATION_CODE": [
+				"EW28"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"JOO KOON MRT STATION": {
+			"STATION_NAME": "JOO KOON MRT STATION",
+			"STATION_CODE": [
+				"EW29"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"GUL CIRCLE MRT STATION": {
+			"STATION_NAME": "GUL CIRCLE MRT STATION",
+			"STATION_CODE": [
+				"EW30 (Future)"
+			],
+			"LINE": {
+				"EWL": 2,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"TUAS CRESCENT MRT STATION": {
+			"STATION_NAME": "TUAS CRESCENT MRT STATION",
+			"STATION_CODE": [
+				"EW31 (Future)"
+			],
+			"LINE": {
+				"EWL": 2,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"TUAS WEST ROAD MRT STATION": {
+			"STATION_NAME": "TUAS WEST ROAD MRT STATION",
+			"STATION_CODE": [
+				"EW32 (Future)"
+			],
+			"LINE": {
+				"EWL": 2,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"TUAS LINK MRT STATION": {
+			"STATION_NAME": "TUAS LINK MRT STATION",
+			"STATION_CODE": [
+				"EW33 (Future)"
+			],
+			"LINE": {
+				"EWL": 2,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"EXPO MRT STATION": {
+			"STATION_NAME": "EXPO MRT STATION",
+			"STATION_CODE": [
+				"CG1",
+				"DT35 (Future)"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 2
+		},
+		"CHANGI AIRPORT MRT STATION": {
+			"STATION_NAME": "CHANGI AIRPORT MRT STATION",
+			"STATION_CODE": [
+				"CG2"
+			],
+			"LINE": {
+				"EWL": 1,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"BUKIT BATOK MRT STATION": {
+			"STATION_NAME": "BUKIT BATOK MRT STATION",
+			"STATION_CODE": [
+				"NS2"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"BUKIT GOMBAK MRT STATION": {
+			"STATION_NAME": "BUKIT GOMBAK MRT STATION",
+			"STATION_CODE": [
+				"NS3"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"CHOA CHU KANG MRT STATION": {
+			"STATION_NAME": "CHOA CHU KANG MRT STATION",
+			"STATION_CODE": [
+				"NS4"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"YEW TEE MRT STATION": {
+			"STATION_NAME": "YEW TEE MRT STATION",
+			"STATION_CODE": [
+				"NS5"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"KRANJI MRT STATION": {
+			"STATION_NAME": "KRANJI MRT STATION",
+			"STATION_CODE": [
+				"NS7"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"MARSILING MRT STATION": {
+			"STATION_NAME": "MARSILING MRT STATION",
+			"STATION_CODE": [
+				"NS8"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"WOODLANDS MRT STATION": {
+			"STATION_NAME": "WOODLANDS MRT STATION",
+			"STATION_CODE": [
+				"NS9",
+				"TE2 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 2
+		},
+		"ADMIRALTY MRT STATION": {
+			"STATION_NAME": "ADMIRALTY MRT STATION",
+			"STATION_CODE": [
+				"NS10"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"SEMBAWANG MRT STATION": {
+			"STATION_NAME": "SEMBAWANG MRT STATION",
+			"STATION_CODE": [
+				"NS11"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"YISHUN MRT STATION": {
+			"STATION_NAME": "YISHUN MRT STATION",
+			"STATION_CODE": [
+				"NS13"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"KHATIB MRT STATION": {
+			"STATION_NAME": "KHATIB MRT STATION",
+			"STATION_CODE": [
+				"NS14"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"YIO CHU KANG MRT STATION": {
+			"STATION_NAME": "YIO CHU KANG MRT STATION",
+			"STATION_CODE": [
+				"NS15"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"ANG MO KIO MRT STATION": {
+			"STATION_NAME": "ANG MO KIO MRT STATION",
+			"STATION_CODE": [
+				"NS16"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"BISHAN MRT STATION": {
+			"STATION_NAME": "BISHAN MRT STATION",
+			"STATION_CODE": [
+				"NS17",
+				"CC15"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"BRADDELL MRT STATION": {
+			"STATION_NAME": "BRADDELL MRT STATION",
+			"STATION_CODE": [
+				"NS18"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"TOA PAYOH MRT STATION": {
+			"STATION_NAME": "TOA PAYOH MRT STATION",
+			"STATION_CODE": [
+				"NS19"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"NOVENA MRT STATION": {
+			"STATION_NAME": "NOVENA MRT STATION",
+			"STATION_CODE": [
+				"NS20"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"NEWTON MRT STATION": {
+			"STATION_NAME": "NEWTON MRT STATION",
+			"STATION_CODE": [
+				"NS21",
+				"DT11"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"ORCHARD MRT STATION": {
+			"STATION_NAME": "ORCHARD MRT STATION",
+			"STATION_CODE": [
+				"NS22",
+				"TE14 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 2
+		},
+		"SOMERSET MRT STATION": {
+			"STATION_NAME": "SOMERSET MRT STATION",
+			"STATION_CODE": [
+				"NS23"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"DHOBY GHAUT MRT STATION": {
+			"STATION_NAME": "DHOBY GHAUT MRT STATION",
+			"STATION_CODE": [
+				"NS24",
+				"NE6",
+				"CC1"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 1,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"MARINA BAY MRT STATION": {
+			"STATION_NAME": "MARINA BAY MRT STATION",
+			"STATION_CODE": [
+				"NS27",
+				"CE2",
+				"TE20 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"MARINA SOUTH PIER MRT STATION": {
+			"STATION_NAME": "MARINA SOUTH PIER MRT STATION",
+			"STATION_CODE": [
+				"NS28"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 1,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"HARBOURFRONT MRT STATION": {
+			"STATION_NAME": "HARBOURFRONT MRT STATION",
+			"STATION_CODE": [
+				"NE1",
+				"CC29"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 1,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"CHINATOWN MRT STATION": {
+			"STATION_NAME": "CHINATOWN MRT STATION",
+			"STATION_CODE": [
+				"NE4",
+				"DT19"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 1,
+				"CCL": 0,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"CLARKE QUAY MRT STATION": {
+			"STATION_NAME": "CLARKE QUAY MRT STATION",
+			"STATION_CODE": [
+				"NE5"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 1,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"LITTLE INDIA MRT STATION": {
+			"STATION_NAME": "LITTLE INDIA MRT STATION",
+			"STATION_CODE": [
+				"NE7",
+				"DT12"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 1,
+				"CCL": 0,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"FARRER PARK MRT STATION": {
+			"STATION_NAME": "FARRER PARK MRT STATION",
+			"STATION_CODE": [
+				"NE8"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 1,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"BOON KENG MRT STATION": {
+			"STATION_NAME": "BOON KENG MRT STATION",
+			"STATION_CODE": [
+				"NE9"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 1,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"POTONG PASIR MRT STATION": {
+			"STATION_NAME": "POTONG PASIR MRT STATION",
+			"STATION_CODE": [
+				"NE10"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 1,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"WOODLEIGH MRT STATION": {
+			"STATION_NAME": "WOODLEIGH MRT STATION",
+			"STATION_CODE": [
+				"NE11"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 1,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"SERANGOON MRT STATION": {
+			"STATION_NAME": "SERANGOON MRT STATION",
+			"STATION_CODE": [
+				"NE12",
+				"CC13"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 1,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"KOVAN MRT STATION": {
+			"STATION_NAME": "KOVAN MRT STATION",
+			"STATION_CODE": [
+				"NE13"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 1,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"HOUGANG MRT STATION": {
+			"STATION_NAME": "HOUGANG MRT STATION",
+			"STATION_CODE": [
+				"NE14"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 1,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"BUANGKOK MRT STATION": {
+			"STATION_NAME": "BUANGKOK MRT STATION",
+			"STATION_CODE": [
+				"NE15"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 1,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"SENGKANG MRT STATION": {
+			"STATION_NAME": "SENGKANG MRT STATION",
+			"STATION_CODE": [
+				"NE16"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 1,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"PUNGGOL MRT STATION": {
+			"STATION_NAME": "PUNGGOL MRT STATION",
+			"STATION_CODE": [
+				"NE17"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 1,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"BRAS BASAH MRT STATION": {
+			"STATION_NAME": "BRAS BASAH MRT STATION",
+			"STATION_CODE": [
+				"CC2"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"ESPLANADE MRT STATION": {
+			"STATION_NAME": "ESPLANADE MRT STATION",
+			"STATION_CODE": [
+				"CC3"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"PROMENADE MRT STATION": {
+			"STATION_NAME": "PROMENADE MRT STATION",
+			"STATION_CODE": [
+				"CC4",
+				"DT15"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"NICOLL HIGHWAY MRT STATION": {
+			"STATION_NAME": "NICOLL HIGHWAY MRT STATION",
+			"STATION_CODE": [
+				"CC5"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"STADIUM MRT STATION": {
+			"STATION_NAME": "STADIUM MRT STATION",
+			"STATION_CODE": [
+				"CC6"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"MOUNTBATTEN MRT STATION": {
+			"STATION_NAME": "MOUNTBATTEN MRT STATION",
+			"STATION_CODE": [
+				"CC7"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"DAKOTA MRT STATION": {
+			"STATION_NAME": "DAKOTA MRT STATION",
+			"STATION_CODE": [
+				"CC8"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"MACPHERSON MRT STATION": {
+			"STATION_NAME": "MACPHERSON MRT STATION",
+			"STATION_CODE": [
+				"CC10",
+				"DT26 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 2
+		},
+		"TAI SENG MRT STATION": {
+			"STATION_NAME": "TAI SENG MRT STATION",
+			"STATION_CODE": [
+				"CC11"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"BARTLEY MRT STATION": {
+			"STATION_NAME": "BARTLEY MRT STATION",
+			"STATION_CODE": [
+				"CC12"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"LORONG CHUAN MRT STATION": {
+			"STATION_NAME": "LORONG CHUAN MRT STATION",
+			"STATION_CODE": [
+				"CC14"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"MARYMOUNT MRT STATION": {
+			"STATION_NAME": "MARYMOUNT MRT STATION",
+			"STATION_CODE": [
+				"CC16"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"CALDECOTT MRT STATION": {
+			"STATION_NAME": "CALDECOTT MRT STATION",
+			"STATION_CODE": [
+				"CC17",
+				"TE9 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 2
+		},
+		"BUKIT BROWN MRT STATION": {
+			"STATION_NAME": "BUKIT BROWN MRT STATION",
+			"STATION_CODE": [
+				"CC18 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 2,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"BOTANIC GARDENS MRT STATION": {
+			"STATION_NAME": "BOTANIC GARDENS MRT STATION",
+			"STATION_CODE": [
+				"CC19",
+				"DT9"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"FARRER ROAD MRT STATION": {
+			"STATION_NAME": "FARRER ROAD MRT STATION",
+			"STATION_CODE": [
+				"CC20"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"HOLLAND VILLAGE MRT STATION": {
+			"STATION_NAME": "HOLLAND VILLAGE MRT STATION",
+			"STATION_CODE": [
+				"CC21"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"ONE-NORTH MRT STATION": {
+			"STATION_NAME": "ONE-NORTH MRT STATION",
+			"STATION_CODE": [
+				"CC23"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"KENT RIDGE MRT STATION": {
+			"STATION_NAME": "KENT RIDGE MRT STATION",
+			"STATION_CODE": [
+				"CC24"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"HAW PAR VILLA MRT STATION": {
+			"STATION_NAME": "HAW PAR VILLA MRT STATION",
+			"STATION_CODE": [
+				"CC25"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"PASIR PANJANG MRT STATION": {
+			"STATION_NAME": "PASIR PANJANG MRT STATION",
+			"STATION_CODE": [
+				"CC26"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"LABRADOR PARK MRT STATION": {
+			"STATION_NAME": "LABRADOR PARK MRT STATION",
+			"STATION_CODE": [
+				"CC27"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"TELOK BLANGAH MRT STATION": {
+			"STATION_NAME": "TELOK BLANGAH MRT STATION",
+			"STATION_CODE": [
+				"CC28"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 0,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"BAYFRONT MRT STATION": {
+			"STATION_NAME": "BAYFRONT MRT STATION",
+			"STATION_CODE": [
+				"CE1",
+				"DT16"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 1,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 1
+		},
+		"BUKIT PANJANG MRT STATION": {
+			"STATION_NAME": "BUKIT PANJANG MRT STATION",
+			"STATION_CODE": [
+				"DT1"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"CASHEW MRT STATION": {
+			"STATION_NAME": "CASHEW MRT STATION",
+			"STATION_CODE": [
+				"DT2"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"HILLVIEW MRT STATION": {
+			"STATION_NAME": "HILLVIEW MRT STATION",
+			"STATION_CODE": [
+				"DT3"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"BEAUTY WORLD MRT STATION": {
+			"STATION_NAME": "BEAUTY WORLD MRT STATION",
+			"STATION_CODE": [
+				"DT5"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"KING ALBERT PARK MRT STATION": {
+			"STATION_NAME": "KING ALBERT PARK MRT STATION",
+			"STATION_CODE": [
+				"DT6"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"SIXTH AVENUE MRT STATION": {
+			"STATION_NAME": "SIXTH AVENUE MRT STATION",
+			"STATION_CODE": [
+				"DT7"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"TAN KAH KEE MRT STATION": {
+			"STATION_NAME": "TAN KAH KEE MRT STATION",
+			"STATION_CODE": [
+				"DT8"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"STEVENS MRT STATION": {
+			"STATION_NAME": "STEVENS MRT STATION",
+			"STATION_CODE": [
+				"DT10",
+				"TE11 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 1,
+				"TEL": 2
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 2
+		},
+		"ROCHOR MRT STATION": {
+			"STATION_NAME": "ROCHOR MRT STATION",
+			"STATION_CODE": [
+				"DT13"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"DOWNTOWN MRT STATION": {
+			"STATION_NAME": "DOWNTOWN MRT STATION",
+			"STATION_CODE": [
+				"DT17"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"TELOK AYER MRT STATION": {
+			"STATION_NAME": "TELOK AYER MRT STATION",
+			"STATION_CODE": [
+				"DT18"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 1,
+				"TEL": 0
+			},
+			"OPERATIONAL": 1,
+			"INTERCHANGE": 0
+		},
+		"FORT CANNING MRT STATION": {
+			"STATION_NAME": "FORT CANNING MRT STATION",
+			"STATION_CODE": [
+				"DT20 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"BENCOOLEN MRT STATION": {
+			"STATION_NAME": "BENCOOLEN MRT STATION",
+			"STATION_CODE": [
+				"DT21 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"JALAN BESAR MRT STATION": {
+			"STATION_NAME": "JALAN BESAR MRT STATION",
+			"STATION_CODE": [
+				"DT22 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"BENDEMEER MRT STATION": {
+			"STATION_NAME": "BENDEMEER MRT STATION",
+			"STATION_CODE": [
+				"DT23 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"GEYLANG BAHRU MRT STATION": {
+			"STATION_NAME": "GEYLANG BAHRU MRT STATION",
+			"STATION_CODE": [
+				"DT24 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"MATTAR MRT STATION": {
+			"STATION_NAME": "MATTAR MRT STATION",
+			"STATION_CODE": [
+				"DT25 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"UBI MRT STATION": {
+			"STATION_NAME": "UBI MRT STATION",
+			"STATION_CODE": [
+				"DT27 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"KAKI BUKIT MRT STATION": {
+			"STATION_NAME": "KAKI BUKIT MRT STATION",
+			"STATION_CODE": [
+				"DT28 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"BEDOK NORTH MRT STATION": {
+			"STATION_NAME": "BEDOK NORTH MRT STATION",
+			"STATION_CODE": [
+				"DT29 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"BEDOK RESERVOIR MRT STATION": {
+			"STATION_NAME": "BEDOK RESERVOIR MRT STATION",
+			"STATION_CODE": [
+				"DT30 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"TAMPINES WEST MRT STATION": {
+			"STATION_NAME": "TAMPINES WEST MRT STATION",
+			"STATION_CODE": [
+				"DT31 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"TAMPINES EAST MRT STATION": {
+			"STATION_NAME": "TAMPINES EAST MRT STATION",
+			"STATION_CODE": [
+				"DT33 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"UPPER CHANGI MRT STATION": {
+			"STATION_NAME": "UPPER CHANGI MRT STATION",
+			"STATION_CODE": [
+				"DT34 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 2,
+				"TEL": 0
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"WOODLANDS NORTH MRT STATION": {
+			"STATION_NAME": "WOODLANDS NORTH MRT STATION",
+			"STATION_CODE": [
+				"TE1 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"WOODLANDS SOUTH MRT STATION": {
+			"STATION_NAME": "WOODLANDS SOUTH MRT STATION",
+			"STATION_CODE": [
+				"TE3 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"SPRINGLEAF MRT STATION": {
+			"STATION_NAME": "SPRINGLEAF MRT STATION",
+			"STATION_CODE": [
+				"TE4 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"LENTOR MRT STATION": {
+			"STATION_NAME": "LENTOR MRT STATION",
+			"STATION_CODE": [
+				"TE5 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"MAYFLOWER MRT STATION": {
+			"STATION_NAME": "MAYFLOWER MRT STATION",
+			"STATION_CODE": [
+				"TE6 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"BRIGHT HILL MRT STATION": {
+			"STATION_NAME": "BRIGHT HILL MRT STATION",
+			"STATION_CODE": [
+				"TE7 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"UPPER THOMSON MRT STATION": {
+			"STATION_NAME": "UPPER THOMSON MRT STATION",
+			"STATION_CODE": [
+				"TE8 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"MOUNT PLEASANT MRT STATION": {
+			"STATION_NAME": "MOUNT PLEASANT MRT STATION",
+			"STATION_CODE": [
+				"TE10 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"NAPIER MRT STATION": {
+			"STATION_NAME": "NAPIER MRT STATION",
+			"STATION_CODE": [
+				"TE12 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"ORCHARD BOULEVARD MRT STATION": {
+			"STATION_NAME": "ORCHARD BOULEVARD MRT STATION",
+			"STATION_CODE": [
+				"TE13 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"GREAT WORLD MRT STATION": {
+			"STATION_NAME": "GREAT WORLD MRT STATION",
+			"STATION_CODE": [
+				"TE15 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"MAXWELL MRT STATION": {
+			"STATION_NAME": "MAXWELL MRT STATION",
+			"STATION_CODE": [
+				"TE18 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"SHENTON WAY MRT STATION": {
+			"STATION_NAME": "SHENTON WAY MRT STATION",
+			"STATION_CODE": [
+				"TE19 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"MARINA SOUTH MRT STATION": {
+			"STATION_NAME": "MARINA SOUTH MRT STATION",
+			"STATION_CODE": [
+				"TE21 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		},
+		"GARDENS BY THE BAY MRT STATION": {
+			"STATION_NAME": "GARDENS BY THE BAY MRT STATION",
+			"STATION_CODE": [
+				"TE22 (Future)"
+			],
+			"LINE": {
+				"EWL": 0,
+				"NSL": 0,
+				"NEL": 0,
+				"CCL": 0,
+				"DTL": 0,
+				"TEL": 2
+			},
+			"OPERATIONAL": 2,
+			"INTERCHANGE": 0
+		}
 	}
 }

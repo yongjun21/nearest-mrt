@@ -1,8 +1,10 @@
-import {toSVY21} from './helpers'
+import Locator from './Locator'
 
-import addresses from '../data/addresses.json'
-import stations from '../data/stations.json'
+import stations from '../data/processed/stations.json'
+import addresses from '../data/processed/addresses.json'
 
-export default function getNearestMrt (lng, lat, future = true, radius = 500) {
-  
+const locator = new Locator(stations, addresses)
+
+export default function (lnglat, excludeFuture, radius) {
+  return locator.getNearestStation(lnglat, excludeFuture, radius)
 }

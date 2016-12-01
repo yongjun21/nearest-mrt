@@ -1,5 +1,7 @@
 import fs from 'fs'
 
+const lastUpdated = 1480435200000
+
 const filenames = {
   EWL: 'east_west_line.json',
   NSL: 'north_south_line.json',
@@ -20,6 +22,7 @@ Object.keys(filenames).forEach(key => {
     if (v['FUTURE']) stationCode += ' (Future)'
     if (!(stationName in stations)) {
       stations[stationName] = {
+        STATION_NAME: stationName,
         STATION_CODE: [],
         LINE: {
           EWL: 0,
@@ -51,5 +54,7 @@ Object.keys(stations).forEach(stationName => {
   else stations[stationName]['INTERCHANGE'] = 0
 })
 
-fs.writeFileSync('data/processed/stations.json', JSON.stringify(stations, null, '\t'))
-fs.writeFileSync('data/processed/addresses.json', JSON.stringify(addresses, null, '\t'))
+fs.writeFileSync('data/processed/stations.json',
+  JSON.stringify({lastUpdated, data: stations}, null, '\t'))
+fs.writeFileSync('data/processed/addresses.json',
+  JSON.stringify({lastUpdated, data: addresses}, null, '\t'))

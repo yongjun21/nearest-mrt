@@ -1,13 +1,22 @@
 {
   "name": "nearest-mrt",
-  "version": "1.0.0",
-  "description": "Helper function for geospatial data analysis",
+  "version": "1.0.1",
+  "description": "Helper function for geospatial feature engineering",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist && mkdir dist && babel src --out-dir dist",
     "test": "standard",
-    "postinstall": "npm run build"
+    "prepublish": "npm run test && npm run build",
+    "process-data": "babel-node src/clean.js",
+    "deploy-data": "npm run process-data && surge data https://nearestmrt.daburu.xyz"
   },
+  "keywords": [
+    "geospatial",
+    "Singapore",
+    "MRT",
+    "feature engineering",
+    "machine learning"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yongjun21/nearest-mrt.git"
@@ -31,6 +40,7 @@
     ]
   },
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.17.2",
     "node-fetch": "^1.6.3",
     "proj4": "^2.3.15"
