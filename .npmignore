@@ -6,3 +6,4 @@ data/semi
 dist/download.js
 dist/clean.js
 *.log
+.DS_Store
