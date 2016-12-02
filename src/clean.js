@@ -19,12 +19,12 @@ Object.keys(filenames).forEach(key => {
   arr.forEach(v => {
     const stationName = v['BUILDING']
     let stationCode = v['CODE']
-    if (v['FUTURE']) stationCode += ' (Future)'
+    if (v['FUTURE']) stationCode += '(Future)'
     if (!(stationName in stations)) {
       stations[stationName] = {
-        STATION_NAME: stationName,
-        STATION_CODE: [],
-        LINE: {
+        name: stationName,
+        code: [],
+        line: {
           EWL: 0,
           NSL: 0,
           NEL: 0,
@@ -34,8 +34,8 @@ Object.keys(filenames).forEach(key => {
         }
       }
     }
-    stations[stationName]['STATION_CODE'].push(stationCode)
-    stations[stationName]['LINE'][key] = v['FUTURE'] ? 2 : 1
+    stations[stationName].code.push(stationCode)
+    stations[stationName].line[key] = v['FUTURE'] ? 2 : 1
     addresses.push(v)
   })
 })
@@ -43,15 +43,15 @@ Object.keys(filenames).forEach(key => {
 Object.keys(stations).forEach(stationName => {
   let ones = 0
   let twos = 0
-  const mrtLines = stations[stationName]['LINE']
+  const mrtLines = stations[stationName].line
   Object.keys(mrtLines).forEach(line => {
     if (mrtLines[line] === 1) ones++
     if (mrtLines[line] === 2) twos++
   })
-  stations[stationName]['OPERATIONAL'] = ones > 0 ? 1 : 2
-  if (ones > 1) stations[stationName]['INTERCHANGE'] = 1
-  else if (ones + twos > 1) stations[stationName]['INTERCHANGE'] = 2
-  else stations[stationName]['INTERCHANGE'] = 0
+  stations[stationName].operational = ones > 0 ? 1 : 2
+  if (ones > 1) stations[stationName].interchange = 1
+  else if (ones + twos > 1) stations[stationName].interchange = 2
+  else stations[stationName].interchange = 0
 })
 
 fs.writeFileSync('data/processed/stations.json',

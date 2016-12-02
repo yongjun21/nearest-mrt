@@ -1,7 +1,7 @@
 # nearest-mrt
 
 A helper function for geospatial feature engineering.
-To find the nearest MRT station given a location longitude and latitude
+To find the nearest MRT station given a location's longitude and latitude
 
 ### To use
 ```bash
@@ -19,6 +19,7 @@ var target = [103.9428355, 1.3542633]
  * @param radius - limit radius of search in meters ({numeric}, default 1000)
  */
 var nearestMRT = getNearestMrt(target, false, 2000)
+console.log(nearestMRT)
 ```
 
 ### Sample output
@@ -119,9 +120,17 @@ var nearestMRT = getNearestMrt(target, false, 2000)
 }
 ```
 
+### If you prefer a CSV output
+```javascript
+var nearestMRT = getNearestMrt(target, false, 2000)
+console.log(nearestMRT.toFlatObjects())
+console.log(nearestMRT.toTable())
+console.log(nearestMRT.toCSV())
+```
+
 ### Interpreting output
 - 0 - False
 - 1 - True
-- 2 - Will be True sometime in future
+- 2 - Will be true in future (Planned but under construction)
 
 ### How to make sure MRT stations data is always updated? [To be added]

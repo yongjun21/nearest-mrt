@@ -1,6 +1,7 @@
 import proj4 from 'proj4'
 import uniqBy from 'lodash/uniqBy'
 import sortBy from 'lodash/sortBy'
+import stringify from 'csv-stringify/lib/sync'
 
 const SVY21 = '+proj=tmerc +lat_0=1.366666666666667 +lon_0=103.8333333333333 +k=1 +x_0=28001.642 +y_0=38744.572 +ellps=WGS84 +units=m +no_defs'
 const SVY21proj = proj4('WGS84', SVY21)
@@ -41,7 +42,41 @@ export default class {
     return {
       query: {lnglat, excludeFuture, radius},
       result,
-      accurateAsOf: this.lastUpdated
+      accurateAsOf: this.lastUpdated,
+      toFlatObjects () {
+        return this.result.map(flattenObject)
+      },
+      toTable () {
+        const flatObjects = this.toFlatObjects()
+        if (flatObjects.length === 0) return []
+        const headers = Object.keys(flatObjects[0])
+        const rows = flatObjects.map(obj => headers.map(h => obj[h]))
+        return [headers, ...rows]
+      },
+      toCSV () {
+        return stringify(this.toFlatObjects(), {header: true})
+      }
     }
   }
+}
+
+function flattenObject (obj) {
+  const flattened = {}
+
+  function checkoutPath (path, node) {
+    if (typeof node === 'object' && Object.keys(node).length > 0) {
+      if (node instanceof Array) {
+        flattened[path.join('.')] = node.join(' ')
+      } else {
+        for (let key in node) {
+          checkoutPath(path.concat([key]), node[key])
+        }
+      }
+    } else {
+      flattened[path.join('.')] = node
+    }
+  }
+
+  checkoutPath([], obj)
+  return flattened
 }
