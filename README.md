@@ -1,7 +1,7 @@
 # nearest-mrt
 
 A helper function for geospatial feature engineering.
-To find the nearest MRT station given a location's longitude and latitude
+To find the nearest MRT station given a location's longitude & latitude
 
 ### To use
 ```bash
@@ -37,12 +37,12 @@ console.log(nearestMRT)
 		{
 			"rank": 1,
 			"station": {
-				"STATION_NAME": "TAMPINES MRT STATION",
-				"STATION_CODE": [
+				"name": "TAMPINES MRT STATION",
+				"code": [
 					"EW2",
-					"DT32 (Future)"
+					"DT32(Future)"
 				],
-				"LINE": {
+				"line": {
 					"EWL": 1,
 					"NSL": 0,
 					"NEL": 0,
@@ -50,19 +50,19 @@ console.log(nearestMRT)
 					"DTL": 2,
 					"TEL": 0
 				},
-				"OPERATIONAL": 1,
-				"INTERCHANGE": 2
+				"operational": 1,
+				"interchange": 2
 			},
 			"distance": 278
 		},
 		{
 			"rank": 2,
 			"station": {
-				"STATION_NAME": "TAMPINES WEST MRT STATION",
-				"STATION_CODE": [
-					"DT31 (Future)"
+				"name": "TAMPINES WEST MRT STATION",
+				"code": [
+					"DT31(Future)"
 				],
-				"LINE": {
+				"line": {
 					"EWL": 0,
 					"NSL": 0,
 					"NEL": 0,
@@ -70,19 +70,19 @@ console.log(nearestMRT)
 					"DTL": 2,
 					"TEL": 0
 				},
-				"OPERATIONAL": 2,
-				"INTERCHANGE": 0
+				"operational": 2,
+				"interchange": 0
 			},
 			"distance": 1084
 		},
 		{
 			"rank": 3,
 			"station": {
-				"STATION_NAME": "TAMPINES EAST MRT STATION",
-				"STATION_CODE": [
-					"DT33 (Future)"
+				"name": "TAMPINES EAST MRT STATION",
+				"code": [
+					"DT33(Future)"
 				],
-				"LINE": {
+				"line": {
 					"EWL": 0,
 					"NSL": 0,
 					"NEL": 0,
@@ -90,19 +90,19 @@ console.log(nearestMRT)
 					"DTL": 2,
 					"TEL": 0
 				},
-				"OPERATIONAL": 2,
-				"INTERCHANGE": 0
+				"operational": 2,
+				"interchange": 0
 			},
 			"distance": 1330
 		},
 		{
 			"rank": 4,
 			"station": {
-				"STATION_NAME": "SIMEI MRT STATION",
-				"STATION_CODE": [
+				"name": "SIMEI MRT STATION",
+				"code": [
 					"EW3"
 				],
-				"LINE": {
+				"line": {
 					"EWL": 1,
 					"NSL": 0,
 					"NEL": 0,
@@ -110,8 +110,8 @@ console.log(nearestMRT)
 					"DTL": 0,
 					"TEL": 0
 				},
-				"OPERATIONAL": 1,
-				"INTERCHANGE": 0
+				"operational": 1,
+				"interchange": 0
 			},
 			"distance": 1694
 		}
@@ -126,6 +126,68 @@ var nearestMRT = getNearestMrt(target, false, 2000)
 console.log(nearestMRT.toFlatObjects())
 console.log(nearestMRT.toTable())
 console.log(nearestMRT.toCSV())
+```
+Flat object output:
+
+```json
+[
+	{
+		"rank": 1,
+		"station.name": "TAMPINES MRT STATION",
+		"station.code": "EW2 DT32(Future)",
+		"station.line.EWL": 1,
+		"station.line.NSL": 0,
+		"station.line.NEL": 0,
+		"station.line.CCL": 0,
+		"station.line.DTL": 2,
+		"station.line.TEL": 0,
+		"station.operational": 1,
+		"station.interchange": 2,
+		"distance": 278
+	},
+	{
+		"rank": 2,
+		"station.name": "TAMPINES WEST MRT STATION",
+		"station.code": "DT31(Future)",
+		"station.line.EWL": 0,
+		"station.line.NSL": 0,
+		"station.line.NEL": 0,
+		"station.line.CCL": 0,
+		"station.line.DTL": 2,
+		"station.line.TEL": 0,
+		"station.operational": 2,
+		"station.interchange": 0,
+		"distance": 1084
+	},
+	{
+		"rank": 3,
+		"station.name": "TAMPINES EAST MRT STATION",
+		"station.code": "DT33(Future)",
+		"station.line.EWL": 0,
+		"station.line.NSL": 0,
+		"station.line.NEL": 0,
+		"station.line.CCL": 0,
+		"station.line.DTL": 2,
+		"station.line.TEL": 0,
+		"station.operational": 2,
+		"station.interchange": 0,
+		"distance": 1330
+	},
+	{
+		"rank": 4,
+		"station.name": "SIMEI MRT STATION",
+		"station.code": "EW3",
+		"station.line.EWL": 1,
+		"station.line.NSL": 0,
+		"station.line.NEL": 0,
+		"station.line.CCL": 0,
+		"station.line.DTL": 0,
+		"station.line.TEL": 0,
+		"station.operational": 1,
+		"station.interchange": 0,
+		"distance": 1694
+	}
+]
 ```
 
 ### Interpreting output
