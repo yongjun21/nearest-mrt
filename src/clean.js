@@ -36,7 +36,13 @@ Object.keys(filenames).forEach(key => {
     }
     stations[stationName].code.push(stationCode)
     stations[stationName].line[key] = v['FUTURE'] ? 2 : 1
-    addresses.push(v)
+
+    addresses.push(Object.assign({}, v, {
+      X: +v['X'],
+      Y: +v['Y'],
+      LATITUDE: +v['LATITUDE'],
+      LONGITUDE: +v['LONGITUDE']
+    }))
   })
 })
 

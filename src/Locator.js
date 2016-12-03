@@ -27,7 +27,11 @@ export default class {
       if (distance2 > Math.pow(radius, 2)) return
       matches.push({
         station: this.stations[address['BUILDING']],
-        distance: distance2
+        distance: distance2,
+        address: {
+          longitude: address['LONGITUDE'],
+          latitude: address['LATITUDE']
+        }
       })
     })
 

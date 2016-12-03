@@ -53,7 +53,11 @@ console.log(nearestMRT)
 				"operational": 1,
 				"interchange": 2
 			},
-			"distance": 278
+			"distance": 278,
+			"address": {
+				"longitude": 103.945144797,
+				"latitude": 1.35330141358
+			}
 		},
 		{
 			"rank": 2,
@@ -73,7 +77,11 @@ console.log(nearestMRT)
 				"operational": 2,
 				"interchange": 0
 			},
-			"distance": 1084
+			"distance": 1084,
+			"address": {
+				"longitude": 103.938436971,
+				"latitude": 1.3455153056
+			}
 		},
 		{
 			"rank": 3,
@@ -93,7 +101,11 @@ console.log(nearestMRT)
 				"operational": 2,
 				"interchange": 0
 			},
-			"distance": 1330
+			"distance": 1330,
+			"address": {
+				"longitude": 103.954634462,
+				"latitude": 1.35619148272
+			}
 		},
 		{
 			"rank": 4,
@@ -113,7 +125,11 @@ console.log(nearestMRT)
 				"operational": 1,
 				"interchange": 0
 			},
-			"distance": 1694
+			"distance": 1694,
+			"address": {
+				"longitude": 103.953371694,
+				"latitude": 1.34320289478
+			}
 		}
 	],
 	"accurateAsOf": 1480435200000
@@ -143,7 +159,9 @@ Flat object output:
 		"station.line.TEL": 0,
 		"station.operational": 1,
 		"station.interchange": 2,
-		"distance": 278
+		"distance": 278,
+		"address.longitude": 103.945144797,
+		"address.latitude": 1.35330141358
 	},
 	{
 		"rank": 2,
@@ -157,7 +175,9 @@ Flat object output:
 		"station.line.TEL": 0,
 		"station.operational": 2,
 		"station.interchange": 0,
-		"distance": 1084
+		"distance": 1084,
+		"address.longitude": 103.938436971,
+		"address.latitude": 1.3455153056
 	},
 	{
 		"rank": 3,
@@ -171,7 +191,9 @@ Flat object output:
 		"station.line.TEL": 0,
 		"station.operational": 2,
 		"station.interchange": 0,
-		"distance": 1330
+		"distance": 1330,
+		"address.longitude": 103.954634462,
+		"address.latitude": 1.35619148272
 	},
 	{
 		"rank": 4,
@@ -185,7 +207,9 @@ Flat object output:
 		"station.line.TEL": 0,
 		"station.operational": 1,
 		"station.interchange": 0,
-		"distance": 1694
+		"distance": 1694,
+		"address.longitude": 103.953371694,
+		"address.latitude": 1.34320289478
 	}
 ]
 ```
