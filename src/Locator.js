@@ -29,6 +29,8 @@ export default class {
         station: this.stations[address['BUILDING']],
         distance: distance2,
         address: {
+          x: address['X'],
+          y: address['Y'],
           longitude: address['LONGITUDE'],
           latitude: address['LATITUDE']
         }

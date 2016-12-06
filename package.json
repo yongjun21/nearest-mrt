@@ -1,6 +1,6 @@
 {
   "name": "nearest-mrt",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Helper function for geospatial feature engineering",
   "main": "dist/index.js",
   "scripts": {

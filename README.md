@@ -55,6 +55,8 @@ console.log(nearestMRT)
 			},
 			"distance": 278,
 			"address": {
+				"x": 40444.9965695,
+				"y": 37266.9972092,
 				"longitude": 103.945144797,
 				"latitude": 1.35330141358
 			}
@@ -79,6 +81,8 @@ console.log(nearestMRT)
 			},
 			"distance": 1084,
 			"address": {
+				"x": 39698.5275853,
+				"y": 36406.0143331,
 				"longitude": 103.938436971,
 				"latitude": 1.3455153056
 			}
@@ -103,6 +107,8 @@ console.log(nearestMRT)
 			},
 			"distance": 1330,
 			"address": {
+				"x": 41501.0748522,
+				"y": 37586.6177644,
 				"longitude": 103.954634462,
 				"latitude": 1.35619148272
 			}
@@ -127,6 +133,8 @@ console.log(nearestMRT)
 			},
 			"distance": 1694,
 			"address": {
+				"x": 41360.6137918,
+				"y": 36150.3958835,
 				"longitude": 103.953371694,
 				"latitude": 1.34320289478
 			}
@@ -160,6 +168,8 @@ Flat object output:
 		"station.operational": 1,
 		"station.interchange": 2,
 		"distance": 278,
+		"address.x": 40444.9965695,
+		"address.y": 37266.9972092,
 		"address.longitude": 103.945144797,
 		"address.latitude": 1.35330141358
 	},
@@ -176,6 +186,8 @@ Flat object output:
 		"station.operational": 2,
 		"station.interchange": 0,
 		"distance": 1084,
+		"address.x": 39698.5275853,
+		"address.y": 36406.0143331,
 		"address.longitude": 103.938436971,
 		"address.latitude": 1.3455153056
 	},
@@ -192,6 +204,8 @@ Flat object output:
 		"station.operational": 2,
 		"station.interchange": 0,
 		"distance": 1330,
+		"address.x": 41501.0748522,
+		"address.y": 37586.6177644,
 		"address.longitude": 103.954634462,
 		"address.latitude": 1.35619148272
 	},
@@ -208,6 +222,8 @@ Flat object output:
 		"station.operational": 1,
 		"station.interchange": 0,
 		"distance": 1694,
+		"address.x": 41360.6137918,
+		"address.y": 36150.3958835,
 		"address.longitude": 103.953371694,
 		"address.latitude": 1.34320289478
 	}
