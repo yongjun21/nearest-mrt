@@ -1,7 +1,9 @@
 # nearest-mrt
 
 A helper function for geospatial feature engineering.
-To find the nearest MRT station given a location's longitude & latitude
+To find the nearest MRT station given a location's longitude & latitude.
+
+Credits *Singapore Land Authority (SLA)* [OneMap API service](https://docs.onemap.sg) for location data.
 
 ### To use
 ```bash
