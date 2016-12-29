@@ -5,6 +5,6 @@ import addresses from '../data/processed/addresses.json'
 
 const locator = new Locator(stations, addresses)
 
-export default function (lnglat, excludeFuture, radius) {
+module.exports = function (lnglat, excludeFuture, radius) {
   return locator.getNearestStation(lnglat, excludeFuture, radius)
 }
