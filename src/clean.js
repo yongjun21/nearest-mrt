@@ -67,30 +67,12 @@ Object.keys(stations).forEach(stationName => {
   else if (ones + twos > 1) stations[stationName].interchange = 2
   else stations[stationName].interchange = 0
 
-  let latitude = 0;
-  for(var i = 0; i < stations[stationName].latitude.length; i++) {
-    latitude += stations[stationName].latitude[i];
-  }
-  stations[stationName].latitude = latitude / stations[stationName].latitude.length;
+  var mean = arr => arr.reduce( ( p, c ) => p + c, 0 ) / arr.length;
 
-  let longitude = 0;
-  for(var i = 0; i < stations[stationName].longitude.length; i++) {
-    longitude += stations[stationName].longitude[i];
-  }
-  stations[stationName].longitude = longitude / stations[stationName].longitude.length;
-
-  let x = 0;
-  for(var i = 0; i < stations[stationName].x.length; i++) {
-    x += stations[stationName].x[i];
-  }
-  stations[stationName].x = x / stations[stationName].x.length;
-
-  let y = 0;
-  for(var i = 0; i < stations[stationName].y.length; i++) {
-    y += stations[stationName].y[i];
-  }
-  stations[stationName].y = y / stations[stationName].y.length;
-
+  stations[stationName].latitude = mean(stations[stationName].latitude);
+  stations[stationName].longitude = mean(stations[stationName].longitude);
+  stations[stationName].x = mean(stations[stationName].x);
+  stations[stationName].y = mean(stations[stationName].y);
 })
 
 fs.writeFileSync('data/processed/stations.json',
