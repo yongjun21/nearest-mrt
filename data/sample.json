@@ -3,6 +3,10 @@
 		"rank": 1,
 		"station.name": "TAMPINES MRT STATION",
 		"station.code": "EW2 DT32(Future)",
+		"station.latitude": 1.35418942121,
+		"station.longitude": 103.944102647,
+		"station.x": 40329.01248595,
+		"station.y": 37365.1834459,
 		"station.line.EWL": 1,
 		"station.line.NSL": 0,
 		"station.line.NEL": 0,
@@ -11,16 +15,16 @@
 		"station.line.TEL": 0,
 		"station.operational": 1,
 		"station.interchange": 2,
-		"distance": 278,
-		"address.x": 40444.9965695,
-		"address.y": 37266.9972092,
-		"address.longitude": 103.945144797,
-		"address.latitude": 1.35330141358
+		"distance": 141
 	},
 	{
 		"rank": 2,
 		"station.name": "TAMPINES WEST MRT STATION",
 		"station.code": "DT31(Future)",
+		"station.latitude": 1.3455153056,
+		"station.longitude": 103.938436971,
+		"station.x": 39698.5275853,
+		"station.y": 36406.0143331,
 		"station.line.EWL": 0,
 		"station.line.NSL": 0,
 		"station.line.NEL": 0,
@@ -29,16 +33,16 @@
 		"station.line.TEL": 0,
 		"station.operational": 2,
 		"station.interchange": 0,
-		"distance": 1084,
-		"address.x": 39698.5275853,
-		"address.y": 36406.0143331,
-		"address.longitude": 103.938436971,
-		"address.latitude": 1.3455153056
+		"distance": 1084
 	},
 	{
 		"rank": 3,
 		"station.name": "TAMPINES EAST MRT STATION",
 		"station.code": "DT33(Future)",
+		"station.latitude": 1.35619148272,
+		"station.longitude": 103.954634462,
+		"station.x": 41501.0748522,
+		"station.y": 37586.6177644,
 		"station.line.EWL": 0,
 		"station.line.NSL": 0,
 		"station.line.NEL": 0,
@@ -47,16 +51,16 @@
 		"station.line.TEL": 0,
 		"station.operational": 2,
 		"station.interchange": 0,
-		"distance": 1330,
-		"address.x": 41501.0748522,
-		"address.y": 37586.6177644,
-		"address.longitude": 103.954634462,
-		"address.latitude": 1.35619148272
+		"distance": 1330
 	},
 	{
 		"rank": 4,
 		"station.name": "SIMEI MRT STATION",
 		"station.code": "EW3",
+		"station.latitude": 1.34320289478,
+		"station.longitude": 103.953371694,
+		"station.x": 41360.6137918,
+		"station.y": 36150.3958835,
 		"station.line.EWL": 1,
 		"station.line.NSL": 0,
 		"station.line.NEL": 0,
@@ -65,10 +69,6 @@
 		"station.line.TEL": 0,
 		"station.operational": 1,
 		"station.interchange": 0,
-		"distance": 1694,
-		"address.x": 41360.6137918,
-		"address.y": 36150.3958835,
-		"address.longitude": 103.953371694,
-		"address.latitude": 1.34320289478
+		"distance": 1694
 	}
 ]

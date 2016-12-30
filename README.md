@@ -44,6 +44,10 @@ console.log(nearestMRT)
 					"EW2",
 					"DT32(Future)"
 				],
+				"latitude": 1.35418942121,
+				"longitude": 103.944102647,
+				"x": 40329.01248595,
+				"y": 37365.1834459,
 				"line": {
 					"EWL": 1,
 					"NSL": 0,
@@ -55,13 +59,7 @@ console.log(nearestMRT)
 				"operational": 1,
 				"interchange": 2
 			},
-			"distance": 278,
-			"address": {
-				"x": 40444.9965695,
-				"y": 37266.9972092,
-				"longitude": 103.945144797,
-				"latitude": 1.35330141358
-			}
+			"distance": 141
 		},
 		{
 			"rank": 2,
@@ -70,6 +68,10 @@ console.log(nearestMRT)
 				"code": [
 					"DT31(Future)"
 				],
+				"latitude": 1.3455153056,
+				"longitude": 103.938436971,
+				"x": 39698.5275853,
+				"y": 36406.0143331,
 				"line": {
 					"EWL": 0,
 					"NSL": 0,
@@ -81,13 +83,7 @@ console.log(nearestMRT)
 				"operational": 2,
 				"interchange": 0
 			},
-			"distance": 1084,
-			"address": {
-				"x": 39698.5275853,
-				"y": 36406.0143331,
-				"longitude": 103.938436971,
-				"latitude": 1.3455153056
-			}
+			"distance": 1084
 		},
 		{
 			"rank": 3,
@@ -96,6 +92,10 @@ console.log(nearestMRT)
 				"code": [
 					"DT33(Future)"
 				],
+				"latitude": 1.35619148272,
+				"longitude": 103.954634462,
+				"x": 41501.0748522,
+				"y": 37586.6177644,
 				"line": {
 					"EWL": 0,
 					"NSL": 0,
@@ -107,13 +107,7 @@ console.log(nearestMRT)
 				"operational": 2,
 				"interchange": 0
 			},
-			"distance": 1330,
-			"address": {
-				"x": 41501.0748522,
-				"y": 37586.6177644,
-				"longitude": 103.954634462,
-				"latitude": 1.35619148272
-			}
+			"distance": 1330
 		},
 		{
 			"rank": 4,
@@ -122,6 +116,10 @@ console.log(nearestMRT)
 				"code": [
 					"EW3"
 				],
+				"latitude": 1.34320289478,
+				"longitude": 103.953371694,
+				"x": 41360.6137918,
+				"y": 36150.3958835,
 				"line": {
 					"EWL": 1,
 					"NSL": 0,
@@ -133,13 +131,7 @@ console.log(nearestMRT)
 				"operational": 1,
 				"interchange": 0
 			},
-			"distance": 1694,
-			"address": {
-				"x": 41360.6137918,
-				"y": 36150.3958835,
-				"longitude": 103.953371694,
-				"latitude": 1.34320289478
-			}
+			"distance": 1694
 		}
 	],
 	"accurateAsOf": 1480435200000
@@ -161,6 +153,10 @@ Flat object output:
 		"rank": 1,
 		"station.name": "TAMPINES MRT STATION",
 		"station.code": "EW2 DT32(Future)",
+		"station.latitude": 1.35418942121,
+		"station.longitude": 103.944102647,
+		"station.x": 40329.01248595,
+		"station.y": 37365.1834459,
 		"station.line.EWL": 1,
 		"station.line.NSL": 0,
 		"station.line.NEL": 0,
@@ -169,16 +165,16 @@ Flat object output:
 		"station.line.TEL": 0,
 		"station.operational": 1,
 		"station.interchange": 2,
-		"distance": 278,
-		"address.x": 40444.9965695,
-		"address.y": 37266.9972092,
-		"address.longitude": 103.945144797,
-		"address.latitude": 1.35330141358
+		"distance": 141
 	},
 	{
 		"rank": 2,
 		"station.name": "TAMPINES WEST MRT STATION",
 		"station.code": "DT31(Future)",
+		"station.latitude": 1.3455153056,
+		"station.longitude": 103.938436971,
+		"station.x": 39698.5275853,
+		"station.y": 36406.0143331,
 		"station.line.EWL": 0,
 		"station.line.NSL": 0,
 		"station.line.NEL": 0,
@@ -187,16 +183,16 @@ Flat object output:
 		"station.line.TEL": 0,
 		"station.operational": 2,
 		"station.interchange": 0,
-		"distance": 1084,
-		"address.x": 39698.5275853,
-		"address.y": 36406.0143331,
-		"address.longitude": 103.938436971,
-		"address.latitude": 1.3455153056
+		"distance": 1084
 	},
 	{
 		"rank": 3,
 		"station.name": "TAMPINES EAST MRT STATION",
 		"station.code": "DT33(Future)",
+		"station.latitude": 1.35619148272,
+		"station.longitude": 103.954634462,
+		"station.x": 41501.0748522,
+		"station.y": 37586.6177644,
 		"station.line.EWL": 0,
 		"station.line.NSL": 0,
 		"station.line.NEL": 0,
@@ -205,16 +201,16 @@ Flat object output:
 		"station.line.TEL": 0,
 		"station.operational": 2,
 		"station.interchange": 0,
-		"distance": 1330,
-		"address.x": 41501.0748522,
-		"address.y": 37586.6177644,
-		"address.longitude": 103.954634462,
-		"address.latitude": 1.35619148272
+		"distance": 1330
 	},
 	{
 		"rank": 4,
 		"station.name": "SIMEI MRT STATION",
 		"station.code": "EW3",
+		"station.latitude": 1.34320289478,
+		"station.longitude": 103.953371694,
+		"station.x": 41360.6137918,
+		"station.y": 36150.3958835,
 		"station.line.EWL": 1,
 		"station.line.NSL": 0,
 		"station.line.NEL": 0,
@@ -223,11 +219,7 @@ Flat object output:
 		"station.line.TEL": 0,
 		"station.operational": 1,
 		"station.interchange": 0,
-		"distance": 1694,
-		"address.x": 41360.6137918,
-		"address.y": 36150.3958835,
-		"address.longitude": 103.953371694,
-		"address.latitude": 1.34320289478
+		"distance": 1694
 	}
 ]
 ```

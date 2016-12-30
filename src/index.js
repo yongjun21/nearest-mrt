@@ -1,9 +1,8 @@
 import Locator from './Locator'
 
 import stations from '../data/processed/mrt_stations.json'
-import addresses from '../data/processed/addresses.json'
 
-const locator = new Locator(stations, addresses)
+const locator = new Locator(stations)
 
 module.exports = function (lnglat, excludeFuture, radius) {
   return locator.getNearestStation(lnglat, excludeFuture, radius)
