@@ -1,6 +1,7 @@
 import proj4 from 'proj4'
 import uniqBy from 'lodash/uniqBy'
 import sortBy from 'lodash/sortBy'
+import values from 'lodash/values'
 import stringify from 'csv-stringify/lib/sync'
 
 const SVY21 = '+proj=tmerc +lat_0=1.366666666666667 +lon_0=103.8333333333333 +k=1 +x_0=28001.642 +y_0=38744.572 +ellps=WGS84 +units=m +no_defs'
@@ -17,28 +18,27 @@ export default class {
     const [x, y] = SVY21proj.forward(lnglat)
 
     const matches = []
-    this.addresses.forEach(address => {
-      if (excludeFuture && address['FUTURE']) return
-      const deltaX = x - address['X']
-      const deltaY = y - address['Y']
+    values(this.stations).forEach(station => {
+      if (excludeFuture && station['operational'] === 2) return
+      const deltaX = x - station['x']
+      const deltaY = y - station['y']
       if (Math.abs(deltaX) > radius) return
       if (Math.abs(deltaY) > radius) return
       const distance2 = Math.pow(deltaX, 2) + Math.pow(deltaY, 2)
       if (distance2 > Math.pow(radius, 2)) return
       matches.push({
-        station: this.stations[address['BUILDING']],
+        station: this.stations[station['name']],
         distance: distance2,
         address: {
-          x: address['X'],
-          y: address['Y'],
-          longitude: address['LONGITUDE'],
-          latitude: address['LATITUDE']
+          x: station['x'],
+          y: station['y'],
+          longitude: station['longitude'],
+          latitude: station['latitude']
         }
       })
     })
 
-    const deduped = uniqBy(matches, m => m.station)
-    const sorted = sortBy(deduped, m => m.distance)
+    const sorted = sortBy(matches, m => m.distance)
     const result = sorted.map((s, i) => Object.assign(
       {rank: i + 1},
       s,

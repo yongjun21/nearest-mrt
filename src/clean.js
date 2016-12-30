@@ -24,6 +24,10 @@ Object.keys(filenames).forEach(key => {
       stations[stationName] = {
         name: stationName,
         code: [],
+        latitude: [],
+        longitude: [],
+        x: [],
+        y: [],
         line: {
           EWL: 0,
           NSL: 0,
@@ -34,6 +38,10 @@ Object.keys(filenames).forEach(key => {
         }
       }
     }
+    stations[stationName].latitude.push(v['LATITUDE'])
+    stations[stationName].longitude.push(v['LONGITUDE'])
+    stations[stationName].x.push(v['X'])
+    stations[stationName].y.push(v['Y'])
     stations[stationName].code.push(stationCode)
     stations[stationName].line[key] = v['FUTURE'] ? 2 : 1
 
@@ -58,9 +66,16 @@ Object.keys(stations).forEach(stationName => {
   if (ones > 1) stations[stationName].interchange = 1
   else if (ones + twos > 1) stations[stationName].interchange = 2
   else stations[stationName].interchange = 0
+
+  var mean = arr => arr.reduce((p, c) => p + c, 0) / arr.length
+
+  stations[stationName].latitude = mean(stations[stationName].latitude)
+  stations[stationName].longitude = mean(stations[stationName].longitude)
+  stations[stationName].x = mean(stations[stationName].x)
+  stations[stationName].y = mean(stations[stationName].y)
 })
 
-fs.writeFileSync('data/processed/stations.json',
+fs.writeFileSync('data/processed/mrt_stations.json',
   JSON.stringify({lastUpdated, data: stations}, null, '\t'))
 fs.writeFileSync('data/processed/addresses.json',
   JSON.stringify({lastUpdated, data: addresses}, null, '\t'))
