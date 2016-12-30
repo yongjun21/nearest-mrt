@@ -1,6 +1,6 @@
 import Locator from './Locator'
 
-import stations from '../data/processed/stations.json'
+import stations from '../data/processed/mrt_stations.json'
 import addresses from '../data/processed/addresses.json'
 
 const locator = new Locator(stations, addresses)

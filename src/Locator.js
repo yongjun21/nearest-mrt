@@ -1,6 +1,7 @@
 import proj4 from 'proj4'
 import uniqBy from 'lodash/uniqBy'
 import sortBy from 'lodash/sortBy'
+import values from 'lodash/values'
 import stringify from 'csv-stringify/lib/sync'
 
 const SVY21 = '+proj=tmerc +lat_0=1.366666666666667 +lon_0=103.8333333333333 +k=1 +x_0=28001.642 +y_0=38744.572 +ellps=WGS84 +units=m +no_defs'
@@ -17,7 +18,7 @@ export default class {
     const [x, y] = SVY21proj.forward(lnglat)
 
     const matches = []
-    this.stations.forEach(station => {
+    values(this.stations).forEach(station => {
       if (excludeFuture && station['operational'] === 2) return
       const deltaX = x - station['x']
       const deltaY = y - station['y']

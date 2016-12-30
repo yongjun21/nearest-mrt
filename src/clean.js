@@ -67,15 +67,15 @@ Object.keys(stations).forEach(stationName => {
   else if (ones + twos > 1) stations[stationName].interchange = 2
   else stations[stationName].interchange = 0
 
-  var mean = arr => arr.reduce( ( p, c ) => p + c, 0 ) / arr.length;
+  var mean = arr => arr.reduce((p, c) => p + c, 0) / arr.length
 
-  stations[stationName].latitude = mean(stations[stationName].latitude);
-  stations[stationName].longitude = mean(stations[stationName].longitude);
-  stations[stationName].x = mean(stations[stationName].x);
-  stations[stationName].y = mean(stations[stationName].y);
+  stations[stationName].latitude = mean(stations[stationName].latitude)
+  stations[stationName].longitude = mean(stations[stationName].longitude)
+  stations[stationName].x = mean(stations[stationName].x)
+  stations[stationName].y = mean(stations[stationName].y)
 })
 
-fs.writeFileSync('data/processed/stations.json',
+fs.writeFileSync('data/processed/mrt_stations.json',
   JSON.stringify({lastUpdated, data: stations}, null, '\t'))
 fs.writeFileSync('data/processed/addresses.json',
   JSON.stringify({lastUpdated, data: addresses}, null, '\t'))
