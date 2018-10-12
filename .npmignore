@@ -3,7 +3,7 @@ test/
 static/
 data/raw
 data/semi
-dist/download.js
-dist/clean.js
+download.js
+preprocess.js
 *.log
 .DS_Store
