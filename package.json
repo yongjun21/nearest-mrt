@@ -1,14 +1,10 @@
 {
   "name": "nearest-mrt",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "Helper function for geospatial feature engineering",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "build": "rm -rf dist && mkdir dist && babel src --out-dir dist",
-    "test": "standard",
-    "prepublish": "npm run test && npm run build",
-    "process-data": "babel-node src/clean.js",
-    "deploy-data": "npm run process-data && surge data https://nearestmrt.daburu.xyz"
+    "preprocess": "node preprocess.js"
   },
   "keywords": [
     "geospatial",
@@ -27,23 +23,13 @@
     "url": "https://github.com/yongjun21/nearest-mrt/issues"
   },
   "homepage": "https://github.com/yongjun21/nearest-mrt#readme",
-  "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-stage-3": "^6.17.0",
-    "standard": "^8.6.0"
-  },
-  "babel": {
-    "presets": [
-      "es2015",
-      "stage-3"
-    ]
-  },
   "dependencies": {
-    "csv-stringify": "^1.0.4",
-    "isomorphic-fetch": "^2.2.1",
+    "axios": "^0.18.0",
+    "flat": "^4.1.0",
     "lodash": "^4.17.2",
-    "node-fetch": "^1.6.3",
-    "proj4": "^2.3.15"
+    "papaparse": "^4.6.1"
+  },
+  "devDependencies": {
+    "@st-graphics/backend": "^0.1.17"
   }
 }

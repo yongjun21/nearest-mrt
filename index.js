@@ -1,6 +1,6 @@
-import Locator from './Locator'
+const Locator = require('./Locator')
 
-import stations from '../data/processed/mrt_stations.json'
+const stations = require('./data/processed/mrt_stations.json')
 
 const locator = new Locator(stations)
 
