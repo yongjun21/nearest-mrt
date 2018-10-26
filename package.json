@@ -1,6 +1,6 @@
 {
   "name": "nearest-mrt",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Helper function for geospatial feature engineering",
   "main": "index.js",
   "scripts": {
@@ -24,12 +24,16 @@
   },
   "homepage": "https://github.com/yongjun21/nearest-mrt#readme",
   "dependencies": {
-    "axios": "^0.18.0",
     "flat": "^4.1.0",
     "lodash": "^4.17.2",
     "papaparse": "^4.6.1"
   },
   "devDependencies": {
-    "@st-graphics/backend": "^0.1.17"
+    "@mapbox/polyline": "^1.0.0",
+    "@st-graphics/backend": "^0.1.17",
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "cheerio": "^1.0.0-rc.2",
+    "form-data": "^2.3.3"
   }
 }

@@ -1,23 +1,41 @@
 const fs = require('fs')
-const _mean = require('lodash/mean')
 
 const existing = require('./data/raw/MRT_existing.json')
 const future = require('./data/raw/MRT_future.json')
+const alternate = require('./data/raw/MRT_alternate.json')
+
+const SVY21 = require('./svy21')
+const projection = new SVY21()
 
 const lastUpdated = 1539273600000
 
 const stations = {}
 
+let prevRow = null
+
 function clean (row, future) {
   const name = row.station_name.toUpperCase()
   if (!(name in stations)) {
+    let longitude, latitude
+    let x, y
+    if (future) {
+      longitude = row.geolocations[0] && +row.geolocations[0].LONGITUDE
+      latitude = row.geolocations[0] && +row.geolocations[0].LATITUDE
+      x = row.geolocations[0] && +row.geolocations[0].X
+      y = row.geolocations[0] && +row.geolocations[0].Y
+    } else {
+      const match = alternate.find(row => row.name.trim().toUpperCase() === name)
+      longitude = match.lng
+      latitude = match.lat
+      ;[x, y] = projection.forward([match.lng, match.lat])
+    }
     stations[name] = {
       name,
       code: row.station_codes,
-      longitude: _mean(row.geolocations.map(loc => +loc.LONGITUDE)),
-      latitude: _mean(row.geolocations.map(loc => +loc.LATITUDE)),
-      x: _mean(row.geolocations.map(loc => +loc.X)),
-      y: _mean(row.geolocations.map(loc => +loc.Y)),
+      longitude,
+      latitude,
+      x,
+      y,
       line: {
         NSL: 0,
         EWL: 0,
@@ -28,11 +46,17 @@ function clean (row, future) {
         TEL: 0,
         JRL: 0
       },
-      xy: row.geolocations.map(loc => ([+loc.X, +loc.Y]))
+      adjacent: []
     }
   }
-  const line = row.line.match(/\((.*)\)/)[1]
+  const line = row.line.match(/\(([A-Z]*)\)$/)[1]
   stations[name].line[line] = future ? 2 : 1
+  if (prevRow && row.line === prevRow.line) {
+    const prevName = prevRow.station_name.toUpperCase()
+    stations[prevName].adjacent.push({station: name, line, direction: 1})
+    stations[name].adjacent.push({station: prevName, line, direction: 2})
+  }
+  prevRow = row
 }
 
 existing.forEach(row => clean(row, false))

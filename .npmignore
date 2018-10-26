@@ -3,7 +3,10 @@ test/
 static/
 data/raw
 data/semi
-download.js
+scrap.js
+scrapAdditional.js
 preprocess.js
+postprocess.js
+graph.js
 *.log
 .DS_Store

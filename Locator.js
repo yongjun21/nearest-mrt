@@ -23,19 +23,22 @@ Locator.prototype.getNearestStation = function (lnglat, excludeFuture, radius) {
     var station = stations[key]
     if (excludeFuture && station.operational === 2) return
     var distance2 = Infinity
-
-    if (station.x && station.y) {
-
+    function findShorter (target) {
+      if (target.x && target.y) {
+        var deltaX = x - target.x
+        var deltaY = y - target.y
+        var d2 = Math.pow(deltaX, 2) + Math.pow(deltaY, 2)
+        if (d2 < distance2) distance2 = d2
+      }
     }
-    station.xy.forEach(function (coord) {
-      var deltaX = x - coord[0]
-      var deltaY = y - coord[1]
-      var d2 = Math.pow(deltaX, 2) + Math.pow(deltaY, 2)
-      if (d2 < distance2) distance2 = d2
-    })
+    findShorter(station)
+    if (station.locations) {
+      station.locations.forEach(findShorter)
+    }
+
     if (distance2 > radius2) return
     matches.push({
-      station,
+      station: _omit(station, ['adjacent']),
       distance: distance2
     })
   })
@@ -54,7 +57,10 @@ Locator.prototype.getNearestStation = function (lnglat, excludeFuture, radius) {
     accurateAsOf: this.lastUpdated,
     toFlatObjects: function () {
       return this.result.map(function (d) {
-        return flatten(_omit(d, ['adjacent', 'locations', 'exchanges']))
+        d = Object.assign({}, d, {
+          station: _omit(d.station, ['locations', 'exchanges'])
+        })
+        return flatten(d)
       })
     },
     toTable: function () {

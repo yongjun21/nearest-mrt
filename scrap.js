@@ -5,22 +5,27 @@ const _flatten = require('lodash/flatten')
 
 const tables = ['MRT_existing', 'MRT_future']
 
-tables.forEach(key => {
-  fetchSheetsData(key).then(data => {
-    const queries = data.map(row => {
-      return searchOneMap(row.station_name + ' MRT').then(results => {
-        row.geolocations = results.filter(row =>
-          row.BUILDING.match(/MRT STATION EXIT .$/) ||
-          row.BUILDING.match(/MRT STATION {2}\(.*\)$/)
-        )
-        return row
+fetchStations()
+fetchAlternate()
+
+function fetchStations () {
+  tables.forEach(key => {
+    fetchSheetsData(key).then(data => {
+      const queries = data.map(row => {
+        return searchOneMap(row.station_name + ' MRT').then(results => {
+          row.geolocations = results.filter(row =>
+            row.BUILDING.match(/MRT STATION EXIT .$/) ||
+            row.BUILDING.match(/MRT STATION {2}\(.*\)$/)
+          )
+          return row
+        })
       })
+      return Promise.all(queries)
+    }).then(data => {
+      fs.writeFileSync(`data/raw/${key}.json`, JSON.stringify(data, null, 2))
     })
-    return Promise.all(queries)
-  }).then(data => {
-    fs.writeFileSync(`data/raw/${key}.json`, JSON.stringify(data, null, 2))
   })
-})
+}
 
 function fetchSheetsData (key) {
   const params = {
@@ -52,4 +57,14 @@ function searchOneMap (searchVal, pageNum) {
     }
     return Promise.all(results).then(_flatten)
   })
+}
+
+function fetchAlternate () {
+  const url = 'https://connect.smrt.wwprojects.com/smrt/api/stations/'
+  const origin = 'http://journey.smrt.com.sg/'
+  return axios.get(url, {headers: {Origin: origin}})
+    .then(res => res.data.results)
+    .then(results => {
+      fs.writeFileSync('data/raw/MRT_alternate.json', JSON.stringify(results, null, 2))
+    })
 }
