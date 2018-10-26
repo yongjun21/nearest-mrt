@@ -1,10 +1,10 @@
-const _sortBy = require('lodash/sortBy')
-const _omit = require('lodash/omit')
-const {flatten} = require('flat')
-const Papa = require('papaparse')
+var _sortBy = require('lodash/sortBy')
+var _omit = require('lodash/omit')
+var {flatten} = require('flat')
+var Papa = require('papaparse')
 
-const SVY21 = require('./svy21')
-const projection = new SVY21()
+var SVY21 = require('./svy21')
+var projection = new SVY21()
 
 function Locator (stations) {
   this.lastUpdated = stations.lastUpdated
@@ -12,32 +12,39 @@ function Locator (stations) {
 }
 
 Locator.prototype.getNearestStation = function (lnglat, excludeFuture, radius) {
+  var stations = this.stations
   excludeFuture = !!excludeFuture
   radius = radius || 1000
-  const radius2 = Math.pow(radius, 2)
-  const [x, y] = projection.forward(lnglat)
+  var radius2 = Math.pow(radius, 2)
+  var [x, y] = projection.forward(lnglat)
 
-  const matches = []
-  Object.keys(this.stations).forEach(key => {
-    const station = this.stations[key]
+  var matches = []
+  Object.keys(stations).forEach(function (key) {
+    var station = stations[key]
     if (excludeFuture && station.operational === 2) return
-    let distance2 = Infinity
-    station.xy.forEach(coord => {
-      const deltaX = x - coord[0]
-      const deltaY = y - coord[1]
-      const d2 = Math.pow(deltaX, 2) + Math.pow(deltaY, 2)
+    var distance2 = Infinity
+
+    if (station.x && station.y) {
+
+    }
+    station.xy.forEach(function (coord) {
+      var deltaX = x - coord[0]
+      var deltaY = y - coord[1]
+      var d2 = Math.pow(deltaX, 2) + Math.pow(deltaY, 2)
       if (d2 < distance2) distance2 = d2
     })
     if (distance2 > radius2) return
     matches.push({
-      station: _omit(station, ['xy']),
+      station,
       distance: distance2
     })
   })
 
-  const sorted = _sortBy(matches, m => m.distance)
-  const result = sorted.map((s, i) => Object.assign({rank: i + 1}, s))
-  result.forEach(s => {
+  var sorted = _sortBy(matches, function (m) { return m.distance })
+  var result = sorted.map(function (s, i) {
+    return Object.assign({rank: i + 1}, s)
+  })
+  result.forEach(function (s) {
     s.distance = Math.round(Math.pow(s.distance, 0.5))
   })
 
@@ -45,15 +52,22 @@ Locator.prototype.getNearestStation = function (lnglat, excludeFuture, radius) {
     query: {lnglat, excludeFuture, radius},
     result,
     accurateAsOf: this.lastUpdated,
-    toFlatObjects () {
-      return this.result.map(d => flatten(d))
+    toFlatObjects: function () {
+      return this.result.map(function (d) {
+        return flatten(_omit(d, ['adjacent', 'locations', 'exchanges']))
+      })
     },
-    toTable () {
-      const flatObjects = this.toFlatObjects()
+    toTable: function () {
+      var flatObjects = this.toFlatObjects()
       if (flatObjects.length === 0) return []
-      const headers = Object.keys(flatObjects[0])
-      const rows = flatObjects.map(obj => headers.map(h => obj[h]))
-      return [headers, ...rows]
+      var output = []
+      var headers = Object.keys(flatObjects[0])
+      output.push(headers)
+      flatObjects.forEach(function (obj) {
+        var row = headers.map(function (h) { return obj[h] })
+        output.push(row)
+      })
+      return output
     },
     toCSV () {
       return Papa.unparse(this.toFlatObjects(), {header: true})
