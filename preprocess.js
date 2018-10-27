@@ -62,6 +62,23 @@ function clean (row, future) {
 existing.forEach(row => clean(row, false))
 future.forEach(row => clean(row, true))
 
+const hardcodedLinks = [
+  ['TANAH MERAH', 'EXPO', 'CGL'],
+  ['BAYFRONT', 'PROMENADE', 'CCL'],
+  ['EXPO', 'XILIN', 'DTL'],
+  ['PUNGGOL', 'PUNGGOL COAST', 'NEL'],
+  ['HARBOURFRONT', 'KEPPEL', 'CCL'],
+  ['CHOA CHU KANG', 'BUKIT PANJANG', 'BPLRT']
+]
+
+hardcodedLinks.forEach(link => {
+  const orig = link[0].toUpperCase()
+  const dest = link[1].toUpperCase()
+  const line = link[2]
+  stations[orig].adjacent.push({station: dest, line, direction: 1})
+  stations[dest].adjacent.push({station: orig, line, direction: 2})
+})
+
 Object.keys(stations).forEach(name => {
   let ones = 0
   let twos = 0

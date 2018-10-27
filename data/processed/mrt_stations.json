@@ -258,6 +258,14 @@
           "distance": 736,
           "geometry": "ekyFy}{xRnC|AzG~D`BnA~BlB|@fBh@jCJfCIrA_@pBgBdDYb@",
           "duration": 2
+        },
+        {
+          "station": "PROMENADE",
+          "line": "CCL",
+          "direction": 1,
+          "distance": 1245,
+          "geometry": "gkyFy}{xRECwHmEgFaCkCw@cCc@oBOeE?mK`AiEHmDAaGG_@?A?",
+          "duration": 2
         }
       ],
       "operational": 1,
@@ -1311,6 +1319,12 @@
           "distance": 1112,
           "geometry": "khlG__ixRdCiAdBa@|A[zDQfXkAhAObAWxCwB~AaApC{Ax@c@",
           "duration": 2
+        },
+        {
+          "station": "CHOA CHU KANG",
+          "line": "BPLRT",
+          "direction": 2,
+          "duration": 6
         }
       ],
       "operational": 1,
@@ -1322,6 +1336,18 @@
           "latitude": 1.3786486,
           "x": 20027.54,
           "y": 40069.67
+        }
+      ],
+      "exchanges": [
+        {
+          "from": "DTL",
+          "to": "BPLRT",
+          "distance": 175
+        },
+        {
+          "from": "BPLRT",
+          "to": "DTL",
+          "distance": 175
         }
       ]
     },
@@ -1770,6 +1796,12 @@
           "station": "CHOA CHU KANG WEST",
           "line": "JRL",
           "direction": 1
+        },
+        {
+          "station": "BUKIT PANJANG",
+          "line": "BPLRT",
+          "direction": 1,
+          "duration": 6
         }
       ],
       "operational": 1,
@@ -1781,6 +1813,18 @@
           "latitude": 1.3851103,
           "x": 18102.1,
           "y": 40784.24
+        }
+      ],
+      "exchanges": [
+        {
+          "from": "NSL",
+          "to": "BPLRT",
+          "distance": 46
+        },
+        {
+          "from": "BPLRT",
+          "to": "NSL",
+          "distance": 46
         }
       ]
     },
@@ -2476,6 +2520,19 @@
           "distance": 706,
           "geometry": "yxcGycpyRgApB_@l@}@bAc@^e@ZsAl@{A^}AP_B?iAKuB_@eGoAiDu@",
           "duration": 2
+        },
+        {
+          "station": "TANAH MERAH",
+          "line": "CGL",
+          "direction": 2,
+          "distance": 1854,
+          "geometry": "srcGk~oyRpC|A@?FDDDFBDDDBDDDBDDDBDDJHJJJJJJJHHLJJHJHJJLHJHLHJFLHLFLHLFLFLFLFNFLDLFNDLDNFNBLDNDNDNBLBN@F@F@F@F@D@F@F@FxAvJ@HBJ@HBH@J@HBJ@HDNBLDL?BBJBHBF?@BHDJBHBHBHrAjE@D@B@B@B@B@B@B?BRj@Ph@@B@B@B@B@B@B@B@BdBtEnAhDDJpAnCFJHRh@nAN^N^BN@FJX~BzHPp@Rr@dA~D",
+          "duration": 3
+        },
+        {
+          "station": "XILIN",
+          "line": "DTL",
+          "direction": 1
         }
       ],
       "operational": 1,
@@ -2864,6 +2921,11 @@
           "distance": 1436,
           "geometry": "ucvFistxRJfD?lBG~@Y|Aa@hAk@`A}@hAyB~B{ApCSb@]z@oAdDWp@q@zAU`@sHzNa@|@Y`AQdAIdASrE",
           "duration": 2
+        },
+        {
+          "station": "KEPPEL",
+          "line": "CCL",
+          "direction": 1
         }
       ],
       "operational": 1,
@@ -3676,6 +3738,11 @@
           "station": "CANTONMENT",
           "line": "CCL",
           "direction": 1
+        },
+        {
+          "station": "HARBOURFRONT",
+          "line": "CCL",
+          "direction": 2
         }
       ],
       "operational": 2,
@@ -5632,6 +5699,14 @@
           "distance": 1245,
           "geometry": "}o{Fyi|xRB?\\@??`GF??lD@hEKjK_AfE?nBNbC`@jCx@hF`CtHlEFB",
           "duration": 2
+        },
+        {
+          "station": "BAYFRONT",
+          "line": "CCL",
+          "direction": 2,
+          "distance": 1245,
+          "geometry": "}o{Fyi|xRB?\\@??`GF??lD@hEKjK_AfE?nBNbC`@jCx@hF`CtHlEFB",
+          "duration": 2
         }
       ],
       "operational": 1,
@@ -5690,6 +5765,11 @@
           "distance": 1574,
           "geometry": "ugqGijdyRvOdHlUjKtEtB@?@@@??@@?@@@?@??@@?`Ab@@@@?@?@@??@@@?@@@???nBz@|CrAb@PNFrAj@FBFBFBFDFBFBFBFBFBFBTHVJTHVFVHFBH@B@B@FBF@HBF@FBF@H@hGzA",
           "duration": 1
+        },
+        {
+          "station": "PUNGGOL COAST",
+          "line": "NEL",
+          "direction": 1
         }
       ],
       "operational": 1,
@@ -5721,7 +5801,13 @@
         "TEL": 0,
         "JRL": 0
       },
-      "adjacent": [],
+      "adjacent": [
+        {
+          "station": "PUNGGOL",
+          "line": "NEL",
+          "direction": 2
+        }
+      ],
       "operational": 2,
       "interchange": 0
     },
@@ -6800,6 +6886,14 @@
           "distance": 1837,
           "geometry": "gebGe`myRj@vB@BBJDN@DBJDNDPBNBJ@DDPrApG??DPBN??DPDN?@DNDNv@jD@DBHDPBL@@BPDNDPBPDNBPBPBNDPBPBPBN@PBPBPBP@PBN@P@P@H@F@P@PhElo@?@@L@P@B@L@P?L@B?PBb@?B@L@P@J?DBP?F@H@PX|D?@",
           "duration": 3
+        },
+        {
+          "station": "EXPO",
+          "line": "CGL",
+          "direction": 1,
+          "distance": 1854,
+          "geometry": "igbGiamyRq@cCWcAIa@Ka@Ka@wAqGKa@AOMa@Y{@[u@a@{@CGCGCGCICGAAEICICGCGCGCICGAAmA}BACCEEGGIEGEIGGEIGGGKGIGKGIGIGKGKEIGKIMGMGMGMGMEMGMEMGMEOEMEOEMCOEMCOgEoXAIAGAIAICIAIAGAIEOCMEOCMEMEOEMEMEMGMEMGMGMGMGMGKGMGMIKGKIMIKIKIKIKIKIKKIIKKKKIIIKIKKKIMGKIKIMG?A{CaB",
+          "duration": 3
         }
       ],
       "operational": 1,
@@ -7727,6 +7821,11 @@
           "station": "SUNGEI BEDOK",
           "line": "DTL",
           "direction": 1
+        },
+        {
+          "station": "EXPO",
+          "line": "DTL",
+          "direction": 2
         }
       ],
       "operational": 2,

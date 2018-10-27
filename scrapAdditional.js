@@ -6,7 +6,7 @@ const FormData = require('form-data')
 
 const Promise = require('bluebird')
 
-const stations = require('./data/processed/stations.json').data
+const stations = require('./data/processed/mrt_stations.json').data
 const coordinates = {}
 
 // fetchAdjacents()

@@ -5,6 +5,27 @@ const polyline = require('@mapbox/polyline')
 const SVY21 = require('./svy21')
 const projection = new SVY21()
 
+const hardcodedExchanges = {
+  'CHOA CHU KANG': [{
+    from: 'NSL',
+    to: 'BPLRT',
+    distance: 46
+  }, {
+    from: 'BPLRT',
+    to: 'NSL',
+    distance: 46
+  }],
+  'BUKIT PANJANG': [{
+    from: 'DTL',
+    to: 'BPLRT',
+    distance: 175
+  }, {
+    from: 'BPLRT',
+    to: 'DTL',
+    distance: 175
+  }]
+}
+
 // postProcessAdjacents()
 postProcessStations()
 
@@ -18,7 +39,8 @@ function postProcessAdjacents () {
     const geometry = polyline.decode(adjacents[pair].geometry).reverse()
     adjacents[reversed].geometry = polyline.encode(geometry)
   })
-  Object.keys(adjacents).forEach(pair => {
+  Object.keys(estTravelTime).forEach(pair => {
+    adjacents[pair] = adjacents[pair] || {}
     adjacents[pair].duration = estTravelTime[pair]
   })
   fs.writeFileSync('data/raw/adjacents.json', JSON.stringify(adjacents, null, 2))
@@ -68,6 +90,11 @@ function postProcessStations () {
     })
     stations[key].exchanges = exchanges
   })
+  Object.keys(hardcodedExchanges).forEach(key => {
+    stations[key].exchanges = stations[key].exchanges || []
+    stations[key].exchanges.push(...hardcodedExchanges[key])
+  })
+
   Object.keys(stations).forEach(key => {
     clean(stations[key])
     stations[key].adjacent.forEach(clean)
