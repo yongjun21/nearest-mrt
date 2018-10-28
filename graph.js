@@ -1,35 +1,37 @@
 const fs = require('fs')
 const _sortBy = require('lodash/sortBy')
 
-const nodes = require('./data/processed/mrt_stations.json').data
+const stations = require('./data/processed/mrt_stations.json').data
 
 const tally = {}
 
 function dfs (root) {
   const visited = {}
   const unvisited = []
-  unvisited.push([{to: root}, [], -1])
+  unvisited.push([{to: root}, [], {
+    stops: 0,
+    transfers: 0,
+    transferAt: [],
+    travelTime: 0
+  }])
 
   while (unvisited.length > 0) {
-    const [next, path, transfers] = unvisited.pop()
+    const [next, path, metrics] = unvisited.pop()
     if (path.some(node => node.to === next.to)) continue
-    if (transfers > 3) continue
+    if (metrics.transfers > 3) continue
     path.push(next)
     visited[next.to] = visited[next.to] || []
-    visited[next.to].push({
+    visited[next.to].push(Object.assign({
       from: root,
       to: next.to,
-      stops: path.length - 1,
-      transfers,
-      transferAt: getTransferAt(path),
       path: path.slice(1)
-    })
-    nodes[next.to].adjacent.forEach(adj => {
-      if (nodes[adj.station].operational !== 1) return
+    }, metrics))
+    stations[next.to].adjacent.forEach(adj => {
+      if (stations[adj.station].operational !== 1) return
       unvisited.push([
         {to: adj.station, via: adj.line},
         [...path],
-        transfers + (next.via !== adj.line)
+        getMetrics(metrics, adj, next)
       ])
     })
   }
@@ -37,34 +39,49 @@ function dfs (root) {
   delete visited[root]
 
   Object.keys(visited).forEach(key => {
-    visited[key] = _sortBy(visited[key], ['transfers', 'stops'])
-    const alternatives = []
-    visited[key].forEach(test => {
-      if (visited[key].some(alt => (
+    visited[key] = _sortBy(visited[key], 'travelTime')
+    const alternatives = visited[key].filter(test => {
+      return !(visited[key].some(alt => (
         (alt.transfers <= test.transfers && alt.stops < test.stops) ||
         (alt.transfers < test.transfers && alt.stops <= test.stops)
-      ))) return
-      alternatives.push(test)
-    })
+      )))
+    }).filter((row, i, arr) => row.travelTime <= arr[0].travelTime * 1.2)
     visited[key] = alternatives
     tally[alternatives.length] = tally[alternatives.length] || 0
     tally[alternatives.length]++
+    if (alternatives.length > 1) console.log(root, key)
   })
 
   return visited
 }
 
-const routes = Object.keys(nodes).reduce((obj, key) => {
-  if (nodes[key].operational !== 1) return obj
+const routes = Object.keys(stations).reduce((obj, key) => {
+  if (stations[key].operational !== 1) return obj
   return Object.assign(obj, {[key]: dfs(key)})
 }, {})
 
-function getTransferAt (path) {
-  const transferAt = []
-  for (let i = 1; i < path.length - 1; i++) {
-    if (path[i].via !== path[i + 1].via) transferAt.push(path[i].to)
+function getMetrics (metrics, adj, last) {
+  const isTransfer = last.via && (last.via !== adj.line)
+  if (!isTransfer) {
+    return {
+      stops: metrics.stops + 1,
+      transfers: metrics.transfers,
+      transferAt: metrics.transferAt,
+      travelTime: metrics.travelTime + adj.duration
+    }
   }
-  return transferAt
+  // console.log(stations[last.to])
+  const transfer = stations[last.to].transfers
+    .find(row => row.from === last.via && row.to === adj.line)
+  const transferTime = (transfer.distance > 100 ? 10
+                     : transfer.distance > 0 ? 5
+                     : 0) + 2
+  return {
+    stops: metrics.stops + 1,
+    transfers: metrics.transfers + 1,
+    transferAt: metrics.transferAt.concat(last.to),
+    travelTime: metrics.travelTime + adj.duration + transferTime
+  }
 }
 
 console.log(tally)
