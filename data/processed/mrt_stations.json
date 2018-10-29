@@ -46,7 +46,8 @@
           "x": 24400.94,
           "y": 46912.93
         }
-      ]
+      ],
+      "transfers": []
     },
     "ALJUNIED": {
       "name": "ALJUNIED",
@@ -93,7 +94,8 @@
           "x": 33534.58,
           "y": 33190.68
         }
-      ]
+      ],
+      "transfers": []
     },
     "ANG MO KIO": {
       "name": "ANG MO KIO",
@@ -140,7 +142,8 @@
           "x": 29809.72,
           "y": 39097.3
         }
-      ]
+      ],
+      "transfers": []
     },
     "BAHAR JUNCTION": {
       "name": "BAHAR JUNCTION",
@@ -215,7 +218,8 @@
           "x": 33161.86,
           "y": 36112.81
         }
-      ]
+      ],
+      "transfers": []
     },
     "BAYFRONT": {
       "name": "BAYFRONT",
@@ -286,7 +290,7 @@
           "y": 29372.65
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "CCL",
           "to": "DTL",
@@ -376,7 +380,8 @@
           "x": 21584.27,
           "y": 35919.95
         }
-      ]
+      ],
+      "transfers": []
     },
     "BEDOK": {
       "name": "BEDOK",
@@ -423,7 +428,8 @@
           "x": 38778.61,
           "y": 34030.23
         }
-      ]
+      ],
+      "transfers": []
     },
     "BEDOK NORTH": {
       "name": "BEDOK NORTH",
@@ -470,7 +476,8 @@
           "x": 37380.76,
           "y": 35233.51
         }
-      ]
+      ],
+      "transfers": []
     },
     "BEDOK RESERVOIR": {
       "name": "BEDOK RESERVOIR",
@@ -517,7 +524,8 @@
           "x": 38964.89,
           "y": 35422.4
         }
-      ]
+      ],
+      "transfers": []
     },
     "BEDOK SOUTH": {
       "name": "BEDOK SOUTH",
@@ -596,7 +604,8 @@
           "x": 29855.42,
           "y": 31192.09
         }
-      ]
+      ],
+      "transfers": []
     },
     "BENDEMEER": {
       "name": "BENDEMEER",
@@ -643,7 +652,8 @@
           "x": 31290.38,
           "y": 32888.38
         }
-      ]
+      ],
+      "transfers": []
     },
     "BISHAN": {
       "name": "BISHAN",
@@ -714,7 +724,7 @@
           "y": 37045.8
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "NSL",
           "to": "CCL",
@@ -772,7 +782,8 @@
           "x": 31144.04,
           "y": 33510.97
         }
-      ]
+      ],
+      "transfers": []
     },
     "BOON LAY": {
       "name": "BOON LAY",
@@ -829,7 +840,8 @@
           "x": 13849.02,
           "y": 35646.12
         }
-      ]
+      ],
+      "transfers": []
     },
     "BOTANIC GARDENS": {
       "name": "BOTANIC GARDENS",
@@ -900,7 +912,7 @@
           "y": 33857.64
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "CCL",
           "to": "DTL",
@@ -958,7 +970,8 @@
           "x": 29494.42,
           "y": 35813.42
         }
-      ]
+      ],
+      "transfers": []
     },
     "BRAS BASAH": {
       "name": "BRAS BASAH",
@@ -1005,7 +1018,8 @@
           "x": 29956.09,
           "y": 31020.45
         }
-      ]
+      ],
+      "transfers": []
     },
     "BRIGHT HILL": {
       "name": "BRIGHT HILL",
@@ -1084,7 +1098,8 @@
           "x": 34666.05,
           "y": 40543.98
         }
-      ]
+      ],
+      "transfers": []
     },
     "BUGIS": {
       "name": "BUGIS",
@@ -1155,7 +1170,7 @@
           "y": 31303.96
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "EWL",
           "to": "DTL",
@@ -1213,7 +1228,8 @@
           "x": 18678.13,
           "y": 36790.36
         }
-      ]
+      ],
+      "transfers": []
     },
     "BUKIT BATOK WEST": {
       "name": "BUKIT BATOK WEST",
@@ -1292,7 +1308,8 @@
           "x": 18936.82,
           "y": 37854.07
         }
-      ]
+      ],
+      "transfers": []
     },
     "BUKIT PANJANG": {
       "name": "BUKIT PANJANG",
@@ -1338,7 +1355,7 @@
           "y": 40069.67
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "DTL",
           "to": "BPLRT",
@@ -1420,7 +1437,7 @@
           "y": 32106.56
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "EWL",
           "to": "CCL",
@@ -1488,7 +1505,8 @@
           "x": 28691.58,
           "y": 35521.23
         }
-      ]
+      ],
+      "transfers": []
     },
     "CANBERRA": {
       "name": "CANBERRA",
@@ -1588,7 +1606,8 @@
           "x": 20373.1,
           "y": 39018.26
         }
-      ]
+      ],
+      "transfers": []
     },
     "CHANGI AIRPORT": {
       "name": "CHANGI AIRPORT",
@@ -1627,7 +1646,8 @@
           "x": 45259.83,
           "y": 37714.78
         }
-      ]
+      ],
+      "transfers": []
     },
     "CHINATOWN": {
       "name": "CHINATOWN",
@@ -1698,7 +1718,7 @@
           "y": 29641.58
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "NEL",
           "to": "DTL",
@@ -1756,7 +1776,8 @@
           "x": 16809.65,
           "y": 36044.37
         }
-      ]
+      ],
+      "transfers": []
     },
     "CHOA CHU KANG": {
       "name": "CHOA CHU KANG",
@@ -1815,7 +1836,7 @@
           "y": 40784.24
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "NSL",
           "to": "BPLRT",
@@ -1925,7 +1946,7 @@
           "y": 30588.37
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "NSL",
           "to": "EWL",
@@ -1983,7 +2004,8 @@
           "x": 29479.32,
           "y": 30124.55
         }
-      ]
+      ],
+      "transfers": []
     },
     "CLEMENTI": {
       "name": "CLEMENTI",
@@ -2030,7 +2052,8 @@
           "x": 20420.56,
           "y": 33053.73
         }
-      ]
+      ],
+      "transfers": []
     },
     "COMMONWEALTH": {
       "name": "COMMONWEALTH",
@@ -2077,7 +2100,8 @@
           "x": 24102.19,
           "y": 31643.56
         }
-      ]
+      ],
+      "transfers": []
     },
     "CORPORATION": {
       "name": "CORPORATION",
@@ -2152,7 +2176,8 @@
           "x": 34153.93,
           "y": 32294.84
         }
-      ]
+      ],
+      "transfers": []
     },
     "DHOBY GHAUT": {
       "name": "DHOBY GHAUT",
@@ -2238,7 +2263,7 @@
           "y": 31239.9
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "NSL",
           "to": "NEL",
@@ -2316,7 +2341,8 @@
           "x": 21908.6,
           "y": 32639.58
         }
-      ]
+      ],
+      "transfers": []
     },
     "DOWNTOWN": {
       "name": "DOWNTOWN",
@@ -2363,7 +2389,8 @@
           "x": 30189.86,
           "y": 29087.02
         }
-      ]
+      ],
+      "transfers": []
     },
     "ENTERPRISE": {
       "name": "ENTERPRISE",
@@ -2438,7 +2465,8 @@
           "x": 30472.46,
           "y": 30619.48
         }
-      ]
+      ],
+      "transfers": []
     },
     "EUNOS": {
       "name": "EUNOS",
@@ -2485,7 +2513,8 @@
           "x": 35766.01,
           "y": 33554.34
         }
-      ]
+      ],
+      "transfers": []
     },
     "EXPO": {
       "name": "EXPO",
@@ -2553,7 +2582,7 @@
           "y": 35260.77
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "CGL",
           "to": "DTL",
@@ -2611,7 +2640,8 @@
           "x": 30341.81,
           "y": 32766.59
         }
-      ]
+      ],
+      "transfers": []
     },
     "FARRER ROAD": {
       "name": "FARRER ROAD",
@@ -2658,7 +2688,8 @@
           "x": 25118.58,
           "y": 33317.74
         }
-      ]
+      ],
+      "transfers": []
     },
     "FORT CANNING": {
       "name": "FORT CANNING",
@@ -2705,7 +2736,8 @@
           "x": 29247.07,
           "y": 30569.44
         }
-      ]
+      ],
+      "transfers": []
     },
     "GARDENS BY THE BAY": {
       "name": "GARDENS BY THE BAY",
@@ -2807,7 +2839,8 @@
           "x": 32304.14,
           "y": 33762.6
         }
-      ]
+      ],
+      "transfers": []
     },
     "GREAT WORLD": {
       "name": "GREAT WORLD",
@@ -2886,7 +2919,8 @@
           "x": 8794.74,
           "y": 33563.7
         }
-      ]
+      ],
+      "transfers": []
     },
     "HARBOURFRONT": {
       "name": "HARBOURFRONT",
@@ -2946,7 +2980,7 @@
           "y": 27545.85
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "NEL",
           "to": "CCL",
@@ -3036,7 +3070,8 @@
           "x": 22261.14,
           "y": 29445.8
         }
-      ]
+      ],
+      "transfers": []
     },
     "HILLVIEW": {
       "name": "HILLVIEW",
@@ -3083,7 +3118,8 @@
           "x": 20673.24,
           "y": 38285.96
         }
-      ]
+      ],
+      "transfers": []
     },
     "HOLLAND VILLAGE": {
       "name": "HOLLAND VILLAGE",
@@ -3130,7 +3166,8 @@
           "x": 23891.21,
           "y": 32726.41
         }
-      ]
+      ],
+      "transfers": []
     },
     "HONG KAH": {
       "name": "HONG KAH",
@@ -3205,7 +3242,8 @@
           "x": 34583.11,
           "y": 39241.19
         }
-      ]
+      ],
+      "transfers": []
     },
     "JALAN BESAR": {
       "name": "JALAN BESAR",
@@ -3252,7 +3290,8 @@
           "x": 30458.88,
           "y": 31984.72
         }
-      ]
+      ],
+      "transfers": []
     },
     "JOO KOON": {
       "name": "JOO KOON",
@@ -3299,7 +3338,8 @@
           "x": 10745.68,
           "y": 34433.22
         }
-      ]
+      ],
+      "transfers": []
     },
     "JURONG EAST": {
       "name": "JURONG EAST",
@@ -3372,7 +3412,7 @@
           "y": 35030.34
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "NSL",
           "to": "EWL",
@@ -3541,7 +3581,8 @@
           "x": 36343.43,
           "y": 35244.68
         }
-      ]
+      ],
+      "transfers": []
     },
     "KALLANG": {
       "name": "KALLANG",
@@ -3588,7 +3629,8 @@
           "x": 32210.54,
           "y": 32626.26
         }
-      ]
+      ],
+      "transfers": []
     },
     "KATONG PARK": {
       "name": "KATONG PARK",
@@ -3667,7 +3709,8 @@
           "x": 36862.43,
           "y": 33699.05
         }
-      ]
+      ],
+      "transfers": []
     },
     "KENT RIDGE": {
       "name": "KENT RIDGE",
@@ -3714,7 +3757,8 @@
           "x": 22568.71,
           "y": 30632.49
         }
-      ]
+      ],
+      "transfers": []
     },
     "KEPPEL": {
       "name": "KEPPEL",
@@ -3793,7 +3837,8 @@
           "x": 27971.33,
           "y": 44375.31
         }
-      ]
+      ],
+      "transfers": []
     },
     "KING ALBERT PARK": {
       "name": "KING ALBERT PARK",
@@ -3840,7 +3885,8 @@
           "x": 22500.2,
           "y": 35311.99
         }
-      ]
+      ],
+      "transfers": []
     },
     "KOVAN": {
       "name": "KOVAN",
@@ -3887,7 +3933,8 @@
           "x": 33737.05,
           "y": 38019.58
         }
-      ]
+      ],
+      "transfers": []
     },
     "KRANJI": {
       "name": "KRANJI",
@@ -3934,7 +3981,8 @@
           "x": 20079.45,
           "y": 45212.91
         }
-      ]
+      ],
+      "transfers": []
     },
     "LABRADOR PARK": {
       "name": "LABRADOR PARK",
@@ -3981,7 +4029,8 @@
           "x": 24627.28,
           "y": 28311.02
         }
-      ]
+      ],
+      "transfers": []
     },
     "LAKESIDE": {
       "name": "LAKESIDE",
@@ -4028,7 +4077,8 @@
           "x": 15491.77,
           "y": 36263.36
         }
-      ]
+      ],
+      "transfers": []
     },
     "LAVENDER": {
       "name": "LAVENDER",
@@ -4075,7 +4125,8 @@
           "x": 31277.4,
           "y": 32188.69
         }
-      ]
+      ],
+      "transfers": []
     },
     "LENTOR": {
       "name": "LENTOR",
@@ -4178,7 +4229,7 @@
           "y": 32156.31
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "NEL",
           "to": "DTL",
@@ -4236,7 +4287,8 @@
           "x": 31408.45,
           "y": 37082.94
         }
-      ]
+      ],
+      "transfers": []
     },
     "MACPHERSON": {
       "name": "MACPHERSON",
@@ -4307,7 +4359,7 @@
           "y": 34283.98
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "CCL",
           "to": "DTL",
@@ -4391,7 +4443,7 @@
           "y": 28716.19
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "NSL",
           "to": "CCL",
@@ -4473,7 +4525,8 @@
           "x": 31271.97,
           "y": 28201.85
         }
-      ]
+      ],
+      "transfers": []
     },
     "MARINE PARADE": {
       "name": "MARINE PARADE",
@@ -4584,7 +4637,8 @@
           "x": 21399.2,
           "y": 46039.08
         }
-      ]
+      ],
+      "transfers": []
     },
     "MARYMOUNT": {
       "name": "MARYMOUNT",
@@ -4631,7 +4685,8 @@
           "x": 28695.44,
           "y": 36746.14
         }
-      ]
+      ],
+      "transfers": []
     },
     "MATTAR": {
       "name": "MATTAR",
@@ -4678,7 +4733,8 @@
           "x": 33545.8,
           "y": 34350.49
         }
-      ]
+      ],
+      "transfers": []
     },
     "MAXWELL": {
       "name": "MAXWELL",
@@ -4821,7 +4877,8 @@
           "x": 33465.64,
           "y": 32055.48
         }
-      ]
+      ],
+      "transfers": []
     },
     "NANYANG CRESCENT": {
       "name": "NANYANG CRESCENT",
@@ -4980,7 +5037,7 @@
           "y": 32877.13
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "NSL",
           "to": "DTL",
@@ -5038,7 +5095,8 @@
           "x": 31365.86,
           "y": 31344.1
         }
-      ]
+      ],
+      "transfers": []
     },
     "NOVENA": {
       "name": "NOVENA",
@@ -5085,7 +5143,8 @@
           "x": 29171.22,
           "y": 33635.09
         }
-      ]
+      ],
+      "transfers": []
     },
     "ONE-NORTH": {
       "name": "ONE-NORTH",
@@ -5132,7 +5191,8 @@
           "x": 22894.72,
           "y": 31343.76
         }
-      ]
+      ],
+      "transfers": []
     },
     "ORCHARD": {
       "name": "ORCHARD",
@@ -5189,7 +5249,8 @@
           "x": 27883.54,
           "y": 31794.76
         }
-      ]
+      ],
+      "transfers": []
     },
     "ORCHARD BOULEVARD": {
       "name": "ORCHARD BOULEVARD",
@@ -5302,7 +5363,7 @@
           "y": 29132.63
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "EWL",
           "to": "NEL",
@@ -5383,7 +5444,8 @@
           "x": 23323.18,
           "y": 28749.33
         }
-      ]
+      ],
+      "transfers": []
     },
     "PASIR RIS": {
       "name": "PASIR RIS",
@@ -5422,7 +5484,8 @@
           "x": 40905.51,
           "y": 39448.99
         }
-      ]
+      ],
+      "transfers": []
     },
     "PAYA LEBAR": {
       "name": "PAYA LEBAR",
@@ -5493,7 +5556,7 @@
           "y": 33304.71
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "EWL",
           "to": "CCL",
@@ -5574,7 +5637,8 @@
           "x": 12875.74,
           "y": 35530.23
         }
-      ]
+      ],
+      "transfers": []
     },
     "POTONG PASIR": {
       "name": "POTONG PASIR",
@@ -5621,7 +5685,8 @@
           "x": 31975.65,
           "y": 34825.61
         }
-      ]
+      ],
+      "transfers": []
     },
     "PRINCE EDWARD ROAD": {
       "name": "PRINCE EDWARD ROAD",
@@ -5727,7 +5792,7 @@
           "y": 30594.64
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "CCL",
           "to": "DTL",
@@ -5782,7 +5847,8 @@
           "x": 35637.38,
           "y": 42904.61
         }
-      ]
+      ],
+      "transfers": []
     },
     "PUNGGOL COAST": {
       "name": "PUNGGOL COAST",
@@ -5856,7 +5922,8 @@
           "x": 24951.07,
           "y": 30799.55
         }
-      ]
+      ],
+      "transfers": []
     },
     "RAFFLES PLACE": {
       "name": "RAFFLES PLACE",
@@ -5927,7 +5994,7 @@
           "y": 29596.34
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "NSL",
           "to": "EWL",
@@ -5985,7 +6052,8 @@
           "x": 26149.42,
           "y": 30231.24
         }
-      ]
+      ],
+      "transfers": []
     },
     "ROCHOR": {
       "name": "ROCHOR",
@@ -6032,7 +6100,8 @@
           "x": 30131.85,
           "y": 31807.97
         }
-      ]
+      ],
+      "transfers": []
     },
     "SEMBAWANG": {
       "name": "SEMBAWANG",
@@ -6079,7 +6148,8 @@
           "x": 26522.37,
           "y": 47849.61
         }
-      ]
+      ],
+      "transfers": []
     },
     "SENGKANG": {
       "name": "SENGKANG",
@@ -6126,7 +6196,8 @@
           "x": 34918.24,
           "y": 41512
         }
-      ]
+      ],
+      "transfers": []
     },
     "SERANGOON": {
       "name": "SERANGOON",
@@ -6197,7 +6268,7 @@
           "y": 36976.36
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "NEL",
           "to": "CCL",
@@ -6319,7 +6390,8 @@
           "x": 41360.57,
           "y": 36150.45
         }
-      ]
+      ],
+      "transfers": []
     },
     "SIXTH AVENUE": {
       "name": "SIXTH AVENUE",
@@ -6366,7 +6438,8 @@
           "x": 23978.14,
           "y": 34784.87
         }
-      ]
+      ],
+      "transfers": []
     },
     "SOMERSET": {
       "name": "SOMERSET",
@@ -6413,7 +6486,8 @@
           "x": 28656.93,
           "y": 31396.48
         }
-      ]
+      ],
+      "transfers": []
     },
     "SPRINGLEAF": {
       "name": "SPRINGLEAF",
@@ -6492,7 +6566,8 @@
           "x": 32686.34,
           "y": 31690.91
         }
-      ]
+      ],
+      "transfers": []
     },
     "STEVENS": {
       "name": "STEVENS",
@@ -6549,7 +6624,8 @@
           "x": 27178.13,
           "y": 33585.89
         }
-      ]
+      ],
+      "transfers": []
     },
     "SUNGEI BEDOK": {
       "name": "SUNGEI BEDOK",
@@ -6628,7 +6704,8 @@
           "x": 34120.3,
           "y": 35271.29
         }
-      ]
+      ],
+      "transfers": []
     },
     "TAMPINES": {
       "name": "TAMPINES",
@@ -6699,7 +6776,7 @@
           "y": 37483.74
         }
       ],
-      "exchanges": [
+      "transfers": [
         {
           "from": "EWL",
           "to": "DTL",
@@ -6757,7 +6834,8 @@
           "x": 41517.71,
           "y": 37577.38
         }
-      ]
+      ],
+      "transfers": []
     },
     "TAMPINES WEST": {
       "name": "TAMPINES WEST",
@@ -6804,7 +6882,8 @@
           "x": 39703.07,
           "y": 36408.62
         }
-      ]
+      ],
+      "transfers": []
     },
     "TAN KAH KEE": {
       "name": "TAN KAH KEE",
@@ -6851,7 +6930,8 @@
           "x": 25100.8,
           "y": 34245.64
         }
-      ]
+      ],
+      "transfers": []
     },
     "TANAH MERAH": {
       "name": "TANAH MERAH",
@@ -6912,6 +6992,18 @@
           "latitude": 1.3272017,
           "x": 40583.53,
           "y": 34381.1
+        }
+      ],
+      "transfers": [
+        {
+          "from": "EWL",
+          "to": "CGL",
+          "distance": 0
+        },
+        {
+          "from": "CGL",
+          "to": "EWL",
+          "distance": 0
         }
       ]
     },
@@ -6992,7 +7084,8 @@
           "x": 29407.07,
           "y": 28785.85
         }
-      ]
+      ],
+      "transfers": []
     },
     "TANJONG RHU": {
       "name": "TANJONG RHU",
@@ -7099,7 +7192,8 @@
           "x": 29687.58,
           "y": 29397.4
         }
-      ]
+      ],
+      "transfers": []
     },
     "TELOK BLANGAH": {
       "name": "TELOK BLANGAH",
@@ -7146,7 +7240,8 @@
           "x": 25378.29,
           "y": 28133.79
         }
-      ]
+      ],
+      "transfers": []
     },
     "TENGAH": {
       "name": "TENGAH",
@@ -7272,7 +7367,8 @@
           "x": 27287.15,
           "y": 29849.04
         }
-      ]
+      ],
+      "transfers": []
     },
     "TOA PAYOH": {
       "name": "TOA PAYOH",
@@ -7319,7 +7415,8 @@
           "x": 29588.18,
           "y": 34962.49
         }
-      ]
+      ],
+      "transfers": []
     },
     "TOH GUAN": {
       "name": "TOH GUAN",
@@ -7394,7 +7491,8 @@
           "x": 7469.65,
           "y": 33730.79
         }
-      ]
+      ],
+      "transfers": []
     },
     "TUAS LINK": {
       "name": "TUAS LINK",
@@ -7433,7 +7531,8 @@
           "x": 6128.68,
           "y": 35829.5
         }
-      ]
+      ],
+      "transfers": []
     },
     "TUAS WEST ROAD": {
       "name": "TUAS WEST ROAD",
@@ -7480,7 +7579,8 @@
           "x": 6465.38,
           "y": 34675.89
         }
-      ]
+      ],
+      "transfers": []
     },
     "TUKANG": {
       "name": "TUKANG",
@@ -7555,7 +7655,8 @@
           "x": 35333.11,
           "y": 34689.99
         }
-      ]
+      ],
+      "transfers": []
     },
     "UPPER CHANGI": {
       "name": "UPPER CHANGI",
@@ -7602,7 +7703,8 @@
           "x": 42270.43,
           "y": 35952.83
         }
-      ]
+      ],
+      "transfers": []
     },
     "UPPER THOMSON": {
       "name": "UPPER THOMSON",
@@ -7691,7 +7793,8 @@
           "x": 22770.2,
           "y": 46509.28
         }
-      ]
+      ],
+      "transfers": []
     },
     "WOODLANDS NORTH": {
       "name": "WOODLANDS NORTH",
@@ -7797,7 +7900,8 @@
           "x": 32166.2,
           "y": 35707.06
         }
-      ]
+      ],
+      "transfers": []
     },
     "XILIN": {
       "name": "XILIN",
@@ -7876,7 +7980,8 @@
           "x": 18441.99,
           "y": 42149.63
         }
-      ]
+      ],
+      "transfers": []
     },
     "YIO CHU KANG": {
       "name": "YIO CHU KANG",
@@ -7923,7 +8028,8 @@
           "x": 29295.6,
           "y": 40409.9
         }
-      ]
+      ],
+      "transfers": []
     },
     "YISHUN": {
       "name": "YISHUN",
@@ -7970,7 +8076,8 @@
           "x": 28185.67,
           "y": 45679.09
         }
-      ]
+      ],
+      "transfers": []
     }
   }
 }

@@ -4,5 +4,7 @@ test/
 
 data/raw/
 
+tmp.*
+
 *.log
 .DS_Store

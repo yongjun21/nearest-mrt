@@ -58,7 +58,7 @@ Locator.prototype.getNearestStation = function (lnglat, excludeFuture, radius) {
     toFlatObjects: function () {
       return this.result.map(function (d) {
         d = Object.assign({}, d, {
-          station: _omit(d.station, ['locations', 'exchanges'])
+          station: _omit(d.station, ['locations', 'transfers'])
         })
         return flatten(d)
       })

@@ -5,7 +5,7 @@ const polyline = require('@mapbox/polyline')
 const SVY21 = require('./svy21')
 const projection = new SVY21()
 
-const hardcodedExchanges = {
+const hardcodedTransfers = {
   'CHOA CHU KANG': [{
     from: 'NSL',
     to: 'BPLRT',
@@ -72,15 +72,14 @@ function postProcessStations () {
       }
     })
     stations[key].locations = locations
-    if (stations[key].interchange !== 1) return
-    const exchanges = []
+    const transfers = []
     locations.forEach(a => {
       locations.forEach(b => {
         if (a === b) return
         const distance = Math.sqrt(Math.pow(a.x - b.x, 2) + Math.pow(a.y - b.y, 2))
         // Average walking speed = 83.333 metres per min
         // const walkingTime = Math.ceil(distance * 1.5 / 83.333)
-        exchanges.push({
+        transfers.push({
           from: getLine(a.platform),
           to: getLine(b.platform),
           distance
@@ -88,18 +87,18 @@ function postProcessStations () {
         })
       })
     })
-    stations[key].exchanges = exchanges
+    stations[key].transfers = transfers
   })
-  Object.keys(hardcodedExchanges).forEach(key => {
-    stations[key].exchanges = stations[key].exchanges || []
-    stations[key].exchanges.push(...hardcodedExchanges[key])
+  Object.keys(hardcodedTransfers).forEach(key => {
+    stations[key].transfers = stations[key].transfers || []
+    stations[key].transfers.push(...hardcodedTransfers[key])
   })
 
   Object.keys(stations).forEach(key => {
     clean(stations[key])
     stations[key].adjacent.forEach(clean)
     if (stations[key].locations) stations[key].locations.forEach(clean)
-    if (stations[key].exchanges) stations[key].exchanges.forEach(clean)
+    if (stations[key].transfers) stations[key].transfers.forEach(clean)
   })
   const processed = {lastUpdated, data: stations}
   fs.writeFileSync('data/processed/mrt_stations.json', JSON.stringify(processed, null, 2))

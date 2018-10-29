@@ -65,7 +65,8 @@ console.log(nearestMRT)
             "x": 16809.65,
             "y": 36044.37
           }
-        ]
+        ],
+        "transfers": []
       },
       "distance": 372
     },
@@ -106,7 +107,7 @@ console.log(nearestMRT)
             "y": 35030.34
           }
         ],
-        "exchanges": [
+        "transfers": [
           {
             "from": "NSL",
             "to": "EWL",
@@ -150,7 +151,8 @@ console.log(nearestMRT)
             "x": 18678.13,
             "y": 36790.36
           }
-        ]
+        ],
+        "transfers": []
       },
       "distance": 1695
     },
@@ -183,7 +185,8 @@ console.log(nearestMRT)
             "x": 15491.77,
             "y": 36263.36
           }
-        ]
+        ],
+        "transfers": []
       },
       "distance": 1708
     }
